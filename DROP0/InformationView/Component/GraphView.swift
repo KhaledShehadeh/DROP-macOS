@@ -24,6 +24,15 @@ struct GraphView: View
 		}
 	}
 	
+	func createDate(index: Int) -> Date
+	{
+		var components = DateComponents()
+		components.year = 2002
+		let startingDate = Calendar.current.date(from: components)!
+		
+		return Calendar.current.date(byAdding: .year, value: index, to: startingDate)!
+	}
+	
     var body: some View
 	{
 		Chart
@@ -32,7 +41,7 @@ struct GraphView: View
 			{
 				index, number in
 				
-				BarMark(x: .value("Month", "\(2002 + index)"), y: .value("Water Level", number)).foregroundStyle(color(number: number))
+				BarMark(x: .value("Month", createDate(index: index)), y: .value("Water Level", number)).foregroundStyle(color(number: number))
 				
 			}
 		}

@@ -10,6 +10,7 @@ import SwiftUI
 struct QuickInfoView: View
 {
 	let country: ModelCountry.Properties
+	@Binding var selectedCountry: ModelCountry.Properties?
 	
 	private func color() -> Color
 	{
@@ -56,6 +57,18 @@ struct QuickInfoView: View
 	{
 		VStack
 		{
+			HStack
+			{
+				Spacer()
+				
+				Button
+				{
+					selectedCountry = nil
+				} label: {
+					Image(systemName: "x.circle")
+						.padding(7)
+				}
+			}
 			
 			Image(country.name)
 				.resizable()
@@ -89,6 +102,15 @@ struct QuickInfoView: View
 				.buttonStyle(.borderedProminent)
 			}
 			.padding(.horizontal, 3)
+			.padding(.bottom)
+			
+			if let averages = country.yearlyAverage
+			{
+				GraphView(data: averages)
+					.frame(height: 500)
+			}
+			
+			
 			
 			
 		}
@@ -97,7 +119,7 @@ struct QuickInfoView: View
 
 #Preview(traits: .sizeThatFitsLayout)
 {
-		QuickInfoView(country: ModelCountry.Properties(name: "Morocco", symbol: "MC", region: .Western))
+	QuickInfoView(country: VMMap().allCountries[0].properties, selectedCountry: .constant(ModelCountry.Properties(name: "", symbol: "", region: .Central)))
 		.padding(.horizontal, 10)
 		.padding(.vertical, 20)
 }

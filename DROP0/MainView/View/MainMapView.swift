@@ -179,7 +179,7 @@ extension MainMapView
 				{
 					if let selected = self.selected
 					{
-						QuickInfoView(country: selected)
+						QuickInfoView(country: selected, selectedCountry: $selected)
 							.frame(width: 600)
 							.padding()
 							.background(.thinMaterial)
@@ -190,6 +190,7 @@ extension MainMapView
 				}
 			}
 			.padding()
+			.padding(.top)
 			
 			VStack
 			{
