@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291882CB2B0F5193006762F4 /* DROP0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882CA2B0F5193006762F4 /* DROP0App.swift */; };
+		291882CF2B0F5195006762F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291882CE2B0F5195006762F4 /* Assets.xcassets */; };
+		291882D22B0F5195006762F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291882D12B0F5195006762F4 /* Preview Assets.xcassets */; };
+		291882DE2B0F520C006762F4 /* ModelCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882DD2B0F520C006762F4 /* ModelCountry.swift */; };
+		291882E12B0F5270006762F4 /* VMMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882E02B0F5270006762F4 /* VMMap.swift */; };
+		291882E32B0F52B7006762F4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882E22B0F52B7006762F4 /* TabBar.swift */; };
+		291882E52B0F5331006762F4 /* QuickInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882E42B0F5331006762F4 /* QuickInfoView.swift */; };
+		291882E82B0F539D006762F4 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291882E72B0F539D006762F4 /* MainMapView.swift */; };
+		291883482B0F5747006762F4 /* VMInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291883472B0F5747006762F4 /* VMInformation.swift */; };
+		2918834A2B0F58E4006762F4 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291883492B0F58E4006762F4 /* InformationView.swift */; };
+		2918834C2B0F5E4E006762F4 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2918834B2B0F5E4E006762F4 /* GraphView.swift */; };
+		2918834E2B0F8F28006762F4 /* Africa_Boundaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 2918834D2B0F8F28006762F4 /* Africa_Boundaries.json */; };
+		291883502B0FAE56006762F4 /* CountriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2918834F2B0FAE56006762F4 /* CountriesListView.swift */; };
+		294CA1A72B1112FD00C9BAFD /* WaterLevelLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CA1A62B1112FD00C9BAFD /* WaterLevelLegend.swift */; };
+		29A2C9672B17D6F0000F6E1C /* Guinea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C92D2B17D6EE000F6E1C /* Guinea_0.txt */; };
+		29A2C9682B17D6F0000F6E1C /* Zambia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C92E2B17D6EE000F6E1C /* Zambia_0.txt */; };
+		29A2C9692B17D6F0000F6E1C /* French Southern Territories_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C92F2B17D6EE000F6E1C /* French Southern Territories_0.txt */; };
+		29A2C96A2B17D6F0000F6E1C /* Reunion_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9302B17D6EE000F6E1C /* Reunion_0.txt */; };
+		29A2C96B2B17D6F0000F6E1C /* Tanzania_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9312B17D6EE000F6E1C /* Tanzania_0.txt */; };
+		29A2C96C2B17D6F0000F6E1C /* Republic of Congo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9322B17D6EE000F6E1C /* Republic of Congo_0.txt */; };
+		29A2C96D2B17D6F0000F6E1C /* South Africa_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9332B17D6EE000F6E1C /* South Africa_0.txt */; };
+		29A2C96E2B17D6F0000F6E1C /* Somalia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9342B17D6EE000F6E1C /* Somalia_0.txt */; };
+		29A2C96F2B17D6F0000F6E1C /* Malawi_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9352B17D6EE000F6E1C /* Malawi_0.txt */; };
+		29A2C9702B17D6F0000F6E1C /* South Sudan_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9362B17D6EE000F6E1C /* South Sudan_0.txt */; };
+		29A2C9712B17D6F0000F6E1C /* Eritrea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9372B17D6EE000F6E1C /* Eritrea_0.txt */; };
+		29A2C9722B17D6F0000F6E1C /* Djibouti_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9382B17D6EE000F6E1C /* Djibouti_0.txt */; };
+		29A2C9732B17D6F0000F6E1C /* Mozambique_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9392B17D6EE000F6E1C /* Mozambique_0.txt */; };
+		29A2C9742B17D6F0000F6E1C /* Gambia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93A2B17D6EE000F6E1C /* Gambia_0.txt */; };
+		29A2C9752B17D6F0000F6E1C /* Sudan_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93B2B17D6EE000F6E1C /* Sudan_0.txt */; };
+		29A2C9762B17D6F0000F6E1C /* Liberia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93C2B17D6EE000F6E1C /* Liberia_0.txt */; };
+		29A2C9772B17D6F0000F6E1C /* Egypt_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93D2B17D6EF000F6E1C /* Egypt_0.txt */; };
+		29A2C9782B17D6F0000F6E1C /* Algeria_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93E2B17D6EF000F6E1C /* Algeria_0.txt */; };
+		29A2C9792B17D6F0000F6E1C /* Togo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C93F2B17D6EF000F6E1C /* Togo_0.txt */; };
+		29A2C97A2B17D6F0000F6E1C /* Seychelles_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9402B17D6EF000F6E1C /* Seychelles_0.txt */; };
+		29A2C97B2B17D6F0000F6E1C /* Zimbabwe_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9412B17D6EF000F6E1C /* Zimbabwe_0.txt */; };
+		29A2C97C2B17D6F0000F6E1C /* Cote d'Ivoire_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9422B17D6EF000F6E1C /* Cote d'Ivoire_0.txt */; };
+		29A2C97D2B17D6F0000F6E1C /* Swaziland_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9432B17D6EF000F6E1C /* Swaziland_0.txt */; };
+		29A2C97E2B17D6F0000F6E1C /* Mali_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9442B17D6EF000F6E1C /* Mali_0.txt */; };
+		29A2C97F2B17D6F0000F6E1C /* Botswana_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9452B17D6EF000F6E1C /* Botswana_0.txt */; };
+		29A2C9802B17D6F0000F6E1C /* Sao Tome and Principe_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9462B17D6EF000F6E1C /* Sao Tome and Principe_0.txt */; };
+		29A2C9812B17D6F0000F6E1C /* Democratic Republic of the Congo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9472B17D6EF000F6E1C /* Democratic Republic of the Congo_0.txt */; };
+		29A2C9822B17D6F0000F6E1C /* Mayotte_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9482B17D6EF000F6E1C /* Mayotte_0.txt */; };
+		29A2C9832B17D6F0000F6E1C /* Ethiopia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9492B17D6EF000F6E1C /* Ethiopia_0.txt */; };
+		29A2C9842B17D6F0000F6E1C /* Gabon_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94A2B17D6EF000F6E1C /* Gabon_0.txt */; };
+		29A2C9852B17D6F0000F6E1C /* Cameroon_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94B2B17D6EF000F6E1C /* Cameroon_0.txt */; };
+		29A2C9862B17D6F0000F6E1C /* Niger_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94C2B17D6EF000F6E1C /* Niger_0.txt */; };
+		29A2C9872B17D6F0000F6E1C /* Mauritius_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94D2B17D6EF000F6E1C /* Mauritius_0.txt */; };
+		29A2C9882B17D6F0000F6E1C /* Equatorial Guinea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94E2B17D6EF000F6E1C /* Equatorial Guinea_0.txt */; };
+		29A2C9892B17D6F0000F6E1C /* Guinea-Bissau_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C94F2B17D6EF000F6E1C /* Guinea-Bissau_0.txt */; };
+		29A2C98A2B17D6F0000F6E1C /* Benin_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9502B17D6EF000F6E1C /* Benin_0.txt */; };
+		29A2C98B2B17D6F0000F6E1C /* Tunisia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9512B17D6EF000F6E1C /* Tunisia_0.txt */; };
+		29A2C98C2B17D6F0000F6E1C /* Burkina Faso_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9522B17D6EF000F6E1C /* Burkina Faso_0.txt */; };
+		29A2C98D2B17D6F0000F6E1C /* Libya_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9532B17D6EF000F6E1C /* Libya_0.txt */; };
+		29A2C98E2B17D6F0000F6E1C /* Comoros_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9542B17D6EF000F6E1C /* Comoros_0.txt */; };
+		29A2C98F2B17D6F0000F6E1C /* Morocco_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9552B17D6EF000F6E1C /* Morocco_0.txt */; };
+		29A2C9902B17D6F0000F6E1C /* Western Sahara_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9562B17D6EF000F6E1C /* Western Sahara_0.txt */; };
+		29A2C9912B17D6F0000F6E1C /* Mauritania_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9572B17D6EF000F6E1C /* Mauritania_0.txt */; };
+		29A2C9922B17D6F0000F6E1C /* Rwanda_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9582B17D6EF000F6E1C /* Rwanda_0.txt */; };
+		29A2C9932B17D6F0000F6E1C /* Cape Verde_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9592B17D6F0000F6E1C /* Cape Verde_0.txt */; };
+		29A2C9942B17D6F0000F6E1C /* Madagascar_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95A2B17D6F0000F6E1C /* Madagascar_0.txt */; };
+		29A2C9952B17D6F0000F6E1C /* Uganda_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95B2B17D6F0000F6E1C /* Uganda_0.txt */; };
+		29A2C9962B17D6F0000F6E1C /* Namibia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95C2B17D6F0000F6E1C /* Namibia_0.txt */; };
+		29A2C9972B17D6F0000F6E1C /* Burundi_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95D2B17D6F0000F6E1C /* Burundi_0.txt */; };
+		29A2C9982B17D6F0000F6E1C /* Sierra Leone_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95E2B17D6F0000F6E1C /* Sierra Leone_0.txt */; };
+		29A2C9992B17D6F0000F6E1C /* Angola_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C95F2B17D6F0000F6E1C /* Angola_0.txt */; };
+		29A2C99A2B17D6F0000F6E1C /* Kenya_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9602B17D6F0000F6E1C /* Kenya_0.txt */; };
+		29A2C99B2B17D6F0000F6E1C /* Central African Republic_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9612B17D6F0000F6E1C /* Central African Republic_0.txt */; };
+		29A2C99C2B17D6F0000F6E1C /* Nigeria_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9622B17D6F0000F6E1C /* Nigeria_0.txt */; };
+		29A2C99D2B17D6F0000F6E1C /* Ghana_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9632B17D6F0000F6E1C /* Ghana_0.txt */; };
+		29A2C99E2B17D6F0000F6E1C /* Chad_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9642B17D6F0000F6E1C /* Chad_0.txt */; };
+		29A2C99F2B17D6F0000F6E1C /* Lesotho_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9652B17D6F0000F6E1C /* Lesotho_0.txt */; };
+		29A2C9A02B17D6F0000F6E1C /* Senegal_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2C9662B17D6F0000F6E1C /* Senegal_0.txt */; };
+		29A2CA512B17D889000F6E1C /* y_Chad_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA172B17D886000F6E1C /* y_Chad_0.txt */; };
+		29A2CA522B17D889000F6E1C /* y_Mozambique_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA182B17D886000F6E1C /* y_Mozambique_0.txt */; };
+		29A2CA532B17D889000F6E1C /* y_Zambia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA192B17D886000F6E1C /* y_Zambia_0.txt */; };
+		29A2CA542B17D889000F6E1C /* y_Central African Republic_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1A2B17D887000F6E1C /* y_Central African Republic_0.txt */; };
+		29A2CA552B17D889000F6E1C /* y_Democratic Republic of the Congo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1B2B17D887000F6E1C /* y_Democratic Republic of the Congo_0.txt */; };
+		29A2CA562B17D889000F6E1C /* y_Rwanda_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1C2B17D887000F6E1C /* y_Rwanda_0.txt */; };
+		29A2CA572B17D889000F6E1C /* y_Reunion_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1D2B17D887000F6E1C /* y_Reunion_0.txt */; };
+		29A2CA582B17D889000F6E1C /* y_Djibouti_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1E2B17D887000F6E1C /* y_Djibouti_0.txt */; };
+		29A2CA592B17D889000F6E1C /* y_Botswana_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA1F2B17D887000F6E1C /* y_Botswana_0.txt */; };
+		29A2CA5A2B17D889000F6E1C /* y_Burundi_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA202B17D887000F6E1C /* y_Burundi_0.txt */; };
+		29A2CA5B2B17D889000F6E1C /* y_Algeria_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA212B17D887000F6E1C /* y_Algeria_0.txt */; };
+		29A2CA5C2B17D889000F6E1C /* y_Morocco_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA222B17D887000F6E1C /* y_Morocco_0.txt */; };
+		29A2CA5D2B17D889000F6E1C /* y_Cape Verde_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA232B17D887000F6E1C /* y_Cape Verde_0.txt */; };
+		29A2CA5E2B17D889000F6E1C /* y_South Africa_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA242B17D887000F6E1C /* y_South Africa_0.txt */; };
+		29A2CA5F2B17D889000F6E1C /* y_Guinea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA252B17D887000F6E1C /* y_Guinea_0.txt */; };
+		29A2CA602B17D889000F6E1C /* y_Mauritania_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA262B17D887000F6E1C /* y_Mauritania_0.txt */; };
+		29A2CA612B17D889000F6E1C /* y_Burkina Faso_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA272B17D887000F6E1C /* y_Burkina Faso_0.txt */; };
+		29A2CA622B17D889000F6E1C /* y_Somalia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA282B17D887000F6E1C /* y_Somalia_0.txt */; };
+		29A2CA632B17D889000F6E1C /* y_Comoros_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA292B17D887000F6E1C /* y_Comoros_0.txt */; };
+		29A2CA642B17D889000F6E1C /* y_Tanzania_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2A2B17D887000F6E1C /* y_Tanzania_0.txt */; };
+		29A2CA652B17D889000F6E1C /* y_Madagascar_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2B2B17D887000F6E1C /* y_Madagascar_0.txt */; };
+		29A2CA662B17D889000F6E1C /* y_Togo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2C2B17D887000F6E1C /* y_Togo_0.txt */; };
+		29A2CA672B17D889000F6E1C /* y_Republic of Congo_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2D2B17D887000F6E1C /* y_Republic of Congo_0.txt */; };
+		29A2CA682B17D889000F6E1C /* y_Namibia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2E2B17D887000F6E1C /* y_Namibia_0.txt */; };
+		29A2CA692B17D889000F6E1C /* y_Cameroon_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA2F2B17D887000F6E1C /* y_Cameroon_0.txt */; };
+		29A2CA6A2B17D889000F6E1C /* y_Senegal_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA302B17D887000F6E1C /* y_Senegal_0.txt */; };
+		29A2CA6B2B17D889000F6E1C /* y_Mali_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA312B17D887000F6E1C /* y_Mali_0.txt */; };
+		29A2CA6C2B17D889000F6E1C /* y_Equatorial Guinea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA322B17D887000F6E1C /* y_Equatorial Guinea_0.txt */; };
+		29A2CA6D2B17D889000F6E1C /* y_Guinea-Bissau_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA332B17D887000F6E1C /* y_Guinea-Bissau_0.txt */; };
+		29A2CA6E2B17D889000F6E1C /* y_Benin_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA342B17D888000F6E1C /* y_Benin_0.txt */; };
+		29A2CA6F2B17D889000F6E1C /* y_Western Sahara_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA352B17D888000F6E1C /* y_Western Sahara_0.txt */; };
+		29A2CA702B17D889000F6E1C /* y_Niger_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA362B17D888000F6E1C /* y_Niger_0.txt */; };
+		29A2CA712B17D889000F6E1C /* y_Nigeria_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA372B17D888000F6E1C /* y_Nigeria_0.txt */; };
+		29A2CA722B17D889000F6E1C /* y_Gambia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA382B17D888000F6E1C /* y_Gambia_0.txt */; };
+		29A2CA732B17D889000F6E1C /* y_Liberia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA392B17D888000F6E1C /* y_Liberia_0.txt */; };
+		29A2CA742B17D889000F6E1C /* y_Eritrea_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3A2B17D888000F6E1C /* y_Eritrea_0.txt */; };
+		29A2CA752B17D889000F6E1C /* y_South Sudan_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3B2B17D888000F6E1C /* y_South Sudan_0.txt */; };
+		29A2CA762B17D889000F6E1C /* y_Cote d'Ivoire_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3C2B17D888000F6E1C /* y_Cote d'Ivoire_0.txt */; };
+		29A2CA772B17D889000F6E1C /* y_Egypt_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3D2B17D888000F6E1C /* y_Egypt_0.txt */; };
+		29A2CA782B17D889000F6E1C /* y_Kenya_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3E2B17D888000F6E1C /* y_Kenya_0.txt */; };
+		29A2CA792B17D889000F6E1C /* y_Seychelles_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA3F2B17D888000F6E1C /* y_Seychelles_0.txt */; };
+		29A2CA7A2B17D889000F6E1C /* y_Malawi_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA402B17D888000F6E1C /* y_Malawi_0.txt */; };
+		29A2CA7B2B17D889000F6E1C /* y_Uganda_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA412B17D888000F6E1C /* y_Uganda_0.txt */; };
+		29A2CA7C2B17D889000F6E1C /* y_Zimbabwe_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA422B17D888000F6E1C /* y_Zimbabwe_0.txt */; };
+		29A2CA7D2B17D889000F6E1C /* y_Gabon_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA432B17D888000F6E1C /* y_Gabon_0.txt */; };
+		29A2CA7E2B17D889000F6E1C /* y_Tunisia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA442B17D888000F6E1C /* y_Tunisia_0.txt */; };
+		29A2CA7F2B17D889000F6E1C /* y_Angola_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA452B17D888000F6E1C /* y_Angola_0.txt */; };
+		29A2CA802B17D889000F6E1C /* y_Mayotte_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA462B17D888000F6E1C /* y_Mayotte_0.txt */; };
+		29A2CA812B17D889000F6E1C /* y_Sierra Leone_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA472B17D888000F6E1C /* y_Sierra Leone_0.txt */; };
+		29A2CA822B17D889000F6E1C /* y_Libya_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA482B17D888000F6E1C /* y_Libya_0.txt */; };
+		29A2CA832B17D889000F6E1C /* y_Ghana_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA492B17D888000F6E1C /* y_Ghana_0.txt */; };
+		29A2CA842B17D889000F6E1C /* y_Ethiopia_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4A2B17D888000F6E1C /* y_Ethiopia_0.txt */; };
+		29A2CA852B17D889000F6E1C /* y_Lesotho_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4B2B17D888000F6E1C /* y_Lesotho_0.txt */; };
+		29A2CA862B17D889000F6E1C /* y_French Southern Territories_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4C2B17D889000F6E1C /* y_French Southern Territories_0.txt */; };
+		29A2CA872B17D889000F6E1C /* y_Sudan_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4D2B17D889000F6E1C /* y_Sudan_0.txt */; };
+		29A2CA882B17D889000F6E1C /* y_Swaziland_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4E2B17D889000F6E1C /* y_Swaziland_0.txt */; };
+		29A2CA892B17D889000F6E1C /* y_Sao Tome and Principe_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA4F2B17D889000F6E1C /* y_Sao Tome and Principe_0.txt */; };
+		29A2CA8A2B17D889000F6E1C /* y_Mauritius_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA502B17D889000F6E1C /* y_Mauritius_0.txt */; };
+		29BB30EC2B137016006D2DCA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB30EB2B137016006D2DCA /* Color.swift */; };
+		29BC6E862B15E613000CDDFA /* MonthlyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC6E852B15E613000CDDFA /* MonthlyGraph.swift */; };
+		29DA346E2B10DB4200EC0179 /* colortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA346D2B10DB4200EC0179 /* colortest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291882C72B0F5193006762F4 /* DROP0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DROP0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291882CA2B0F5193006762F4 /* DROP0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DROP0App.swift; sourceTree = "<group>"; };
+		291882CE2B0F5195006762F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291882D12B0F5195006762F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		291882DD2B0F520C006762F4 /* ModelCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCountry.swift; sourceTree = "<group>"; };
+		291882E02B0F5270006762F4 /* VMMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMMap.swift; sourceTree = "<group>"; };
+		291882E22B0F52B7006762F4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		291882E42B0F5331006762F4 /* QuickInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickInfoView.swift; sourceTree = "<group>"; };
+		291882E72B0F539D006762F4 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		291883472B0F5747006762F4 /* VMInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMInformation.swift; sourceTree = "<group>"; };
+		291883492B0F58E4006762F4 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		2918834B2B0F5E4E006762F4 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2918834D2B0F8F28006762F4 /* Africa_Boundaries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Africa_Boundaries.json; sourceTree = "<group>"; };
+		2918834F2B0FAE56006762F4 /* CountriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListView.swift; sourceTree = "<group>"; };
+		294CA1A62B1112FD00C9BAFD /* WaterLevelLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevelLegend.swift; sourceTree = "<group>"; };
+		29A2C92D2B17D6EE000F6E1C /* Guinea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Guinea_0.txt; sourceTree = "<group>"; };
+		29A2C92E2B17D6EE000F6E1C /* Zambia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zambia_0.txt; sourceTree = "<group>"; };
+		29A2C92F2B17D6EE000F6E1C /* French Southern Territories_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "French Southern Territories_0.txt"; sourceTree = "<group>"; };
+		29A2C9302B17D6EE000F6E1C /* Reunion_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Reunion_0.txt; sourceTree = "<group>"; };
+		29A2C9312B17D6EE000F6E1C /* Tanzania_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tanzania_0.txt; sourceTree = "<group>"; };
+		29A2C9322B17D6EE000F6E1C /* Republic of Congo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Republic of Congo_0.txt"; sourceTree = "<group>"; };
+		29A2C9332B17D6EE000F6E1C /* South Africa_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "South Africa_0.txt"; sourceTree = "<group>"; };
+		29A2C9342B17D6EE000F6E1C /* Somalia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Somalia_0.txt; sourceTree = "<group>"; };
+		29A2C9352B17D6EE000F6E1C /* Malawi_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Malawi_0.txt; sourceTree = "<group>"; };
+		29A2C9362B17D6EE000F6E1C /* South Sudan_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "South Sudan_0.txt"; sourceTree = "<group>"; };
+		29A2C9372B17D6EE000F6E1C /* Eritrea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eritrea_0.txt; sourceTree = "<group>"; };
+		29A2C9382B17D6EE000F6E1C /* Djibouti_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Djibouti_0.txt; sourceTree = "<group>"; };
+		29A2C9392B17D6EE000F6E1C /* Mozambique_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mozambique_0.txt; sourceTree = "<group>"; };
+		29A2C93A2B17D6EE000F6E1C /* Gambia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gambia_0.txt; sourceTree = "<group>"; };
+		29A2C93B2B17D6EE000F6E1C /* Sudan_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sudan_0.txt; sourceTree = "<group>"; };
+		29A2C93C2B17D6EE000F6E1C /* Liberia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Liberia_0.txt; sourceTree = "<group>"; };
+		29A2C93D2B17D6EF000F6E1C /* Egypt_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Egypt_0.txt; sourceTree = "<group>"; };
+		29A2C93E2B17D6EF000F6E1C /* Algeria_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Algeria_0.txt; sourceTree = "<group>"; };
+		29A2C93F2B17D6EF000F6E1C /* Togo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Togo_0.txt; sourceTree = "<group>"; };
+		29A2C9402B17D6EF000F6E1C /* Seychelles_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Seychelles_0.txt; sourceTree = "<group>"; };
+		29A2C9412B17D6EF000F6E1C /* Zimbabwe_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zimbabwe_0.txt; sourceTree = "<group>"; };
+		29A2C9422B17D6EF000F6E1C /* Cote d'Ivoire_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cote d'Ivoire_0.txt"; sourceTree = "<group>"; };
+		29A2C9432B17D6EF000F6E1C /* Swaziland_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swaziland_0.txt; sourceTree = "<group>"; };
+		29A2C9442B17D6EF000F6E1C /* Mali_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mali_0.txt; sourceTree = "<group>"; };
+		29A2C9452B17D6EF000F6E1C /* Botswana_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Botswana_0.txt; sourceTree = "<group>"; };
+		29A2C9462B17D6EF000F6E1C /* Sao Tome and Principe_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sao Tome and Principe_0.txt"; sourceTree = "<group>"; };
+		29A2C9472B17D6EF000F6E1C /* Democratic Republic of the Congo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Democratic Republic of the Congo_0.txt"; sourceTree = "<group>"; };
+		29A2C9482B17D6EF000F6E1C /* Mayotte_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mayotte_0.txt; sourceTree = "<group>"; };
+		29A2C9492B17D6EF000F6E1C /* Ethiopia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ethiopia_0.txt; sourceTree = "<group>"; };
+		29A2C94A2B17D6EF000F6E1C /* Gabon_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gabon_0.txt; sourceTree = "<group>"; };
+		29A2C94B2B17D6EF000F6E1C /* Cameroon_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cameroon_0.txt; sourceTree = "<group>"; };
+		29A2C94C2B17D6EF000F6E1C /* Niger_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Niger_0.txt; sourceTree = "<group>"; };
+		29A2C94D2B17D6EF000F6E1C /* Mauritius_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mauritius_0.txt; sourceTree = "<group>"; };
+		29A2C94E2B17D6EF000F6E1C /* Equatorial Guinea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Equatorial Guinea_0.txt"; sourceTree = "<group>"; };
+		29A2C94F2B17D6EF000F6E1C /* Guinea-Bissau_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Guinea-Bissau_0.txt"; sourceTree = "<group>"; };
+		29A2C9502B17D6EF000F6E1C /* Benin_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Benin_0.txt; sourceTree = "<group>"; };
+		29A2C9512B17D6EF000F6E1C /* Tunisia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tunisia_0.txt; sourceTree = "<group>"; };
+		29A2C9522B17D6EF000F6E1C /* Burkina Faso_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Burkina Faso_0.txt"; sourceTree = "<group>"; };
+		29A2C9532B17D6EF000F6E1C /* Libya_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Libya_0.txt; sourceTree = "<group>"; };
+		29A2C9542B17D6EF000F6E1C /* Comoros_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Comoros_0.txt; sourceTree = "<group>"; };
+		29A2C9552B17D6EF000F6E1C /* Morocco_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morocco_0.txt; sourceTree = "<group>"; };
+		29A2C9562B17D6EF000F6E1C /* Western Sahara_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Western Sahara_0.txt"; sourceTree = "<group>"; };
+		29A2C9572B17D6EF000F6E1C /* Mauritania_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mauritania_0.txt; sourceTree = "<group>"; };
+		29A2C9582B17D6EF000F6E1C /* Rwanda_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rwanda_0.txt; sourceTree = "<group>"; };
+		29A2C9592B17D6F0000F6E1C /* Cape Verde_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cape Verde_0.txt"; sourceTree = "<group>"; };
+		29A2C95A2B17D6F0000F6E1C /* Madagascar_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Madagascar_0.txt; sourceTree = "<group>"; };
+		29A2C95B2B17D6F0000F6E1C /* Uganda_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Uganda_0.txt; sourceTree = "<group>"; };
+		29A2C95C2B17D6F0000F6E1C /* Namibia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Namibia_0.txt; sourceTree = "<group>"; };
+		29A2C95D2B17D6F0000F6E1C /* Burundi_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Burundi_0.txt; sourceTree = "<group>"; };
+		29A2C95E2B17D6F0000F6E1C /* Sierra Leone_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sierra Leone_0.txt"; sourceTree = "<group>"; };
+		29A2C95F2B17D6F0000F6E1C /* Angola_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Angola_0.txt; sourceTree = "<group>"; };
+		29A2C9602B17D6F0000F6E1C /* Kenya_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kenya_0.txt; sourceTree = "<group>"; };
+		29A2C9612B17D6F0000F6E1C /* Central African Republic_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Central African Republic_0.txt"; sourceTree = "<group>"; };
+		29A2C9622B17D6F0000F6E1C /* Nigeria_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nigeria_0.txt; sourceTree = "<group>"; };
+		29A2C9632B17D6F0000F6E1C /* Ghana_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ghana_0.txt; sourceTree = "<group>"; };
+		29A2C9642B17D6F0000F6E1C /* Chad_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chad_0.txt; sourceTree = "<group>"; };
+		29A2C9652B17D6F0000F6E1C /* Lesotho_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesotho_0.txt; sourceTree = "<group>"; };
+		29A2C9662B17D6F0000F6E1C /* Senegal_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Senegal_0.txt; sourceTree = "<group>"; };
+		29A2CA172B17D886000F6E1C /* y_Chad_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Chad_0.txt; sourceTree = "<group>"; };
+		29A2CA182B17D886000F6E1C /* y_Mozambique_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mozambique_0.txt; sourceTree = "<group>"; };
+		29A2CA192B17D886000F6E1C /* y_Zambia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Zambia_0.txt; sourceTree = "<group>"; };
+		29A2CA1A2B17D887000F6E1C /* y_Central African Republic_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Central African Republic_0.txt"; sourceTree = "<group>"; };
+		29A2CA1B2B17D887000F6E1C /* y_Democratic Republic of the Congo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Democratic Republic of the Congo_0.txt"; sourceTree = "<group>"; };
+		29A2CA1C2B17D887000F6E1C /* y_Rwanda_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Rwanda_0.txt; sourceTree = "<group>"; };
+		29A2CA1D2B17D887000F6E1C /* y_Reunion_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Reunion_0.txt; sourceTree = "<group>"; };
+		29A2CA1E2B17D887000F6E1C /* y_Djibouti_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Djibouti_0.txt; sourceTree = "<group>"; };
+		29A2CA1F2B17D887000F6E1C /* y_Botswana_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Botswana_0.txt; sourceTree = "<group>"; };
+		29A2CA202B17D887000F6E1C /* y_Burundi_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Burundi_0.txt; sourceTree = "<group>"; };
+		29A2CA212B17D887000F6E1C /* y_Algeria_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Algeria_0.txt; sourceTree = "<group>"; };
+		29A2CA222B17D887000F6E1C /* y_Morocco_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Morocco_0.txt; sourceTree = "<group>"; };
+		29A2CA232B17D887000F6E1C /* y_Cape Verde_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Cape Verde_0.txt"; sourceTree = "<group>"; };
+		29A2CA242B17D887000F6E1C /* y_South Africa_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_South Africa_0.txt"; sourceTree = "<group>"; };
+		29A2CA252B17D887000F6E1C /* y_Guinea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Guinea_0.txt; sourceTree = "<group>"; };
+		29A2CA262B17D887000F6E1C /* y_Mauritania_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mauritania_0.txt; sourceTree = "<group>"; };
+		29A2CA272B17D887000F6E1C /* y_Burkina Faso_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Burkina Faso_0.txt"; sourceTree = "<group>"; };
+		29A2CA282B17D887000F6E1C /* y_Somalia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Somalia_0.txt; sourceTree = "<group>"; };
+		29A2CA292B17D887000F6E1C /* y_Comoros_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Comoros_0.txt; sourceTree = "<group>"; };
+		29A2CA2A2B17D887000F6E1C /* y_Tanzania_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Tanzania_0.txt; sourceTree = "<group>"; };
+		29A2CA2B2B17D887000F6E1C /* y_Madagascar_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Madagascar_0.txt; sourceTree = "<group>"; };
+		29A2CA2C2B17D887000F6E1C /* y_Togo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Togo_0.txt; sourceTree = "<group>"; };
+		29A2CA2D2B17D887000F6E1C /* y_Republic of Congo_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Republic of Congo_0.txt"; sourceTree = "<group>"; };
+		29A2CA2E2B17D887000F6E1C /* y_Namibia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Namibia_0.txt; sourceTree = "<group>"; };
+		29A2CA2F2B17D887000F6E1C /* y_Cameroon_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Cameroon_0.txt; sourceTree = "<group>"; };
+		29A2CA302B17D887000F6E1C /* y_Senegal_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Senegal_0.txt; sourceTree = "<group>"; };
+		29A2CA312B17D887000F6E1C /* y_Mali_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mali_0.txt; sourceTree = "<group>"; };
+		29A2CA322B17D887000F6E1C /* y_Equatorial Guinea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Equatorial Guinea_0.txt"; sourceTree = "<group>"; };
+		29A2CA332B17D887000F6E1C /* y_Guinea-Bissau_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Guinea-Bissau_0.txt"; sourceTree = "<group>"; };
+		29A2CA342B17D888000F6E1C /* y_Benin_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Benin_0.txt; sourceTree = "<group>"; };
+		29A2CA352B17D888000F6E1C /* y_Western Sahara_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Western Sahara_0.txt"; sourceTree = "<group>"; };
+		29A2CA362B17D888000F6E1C /* y_Niger_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Niger_0.txt; sourceTree = "<group>"; };
+		29A2CA372B17D888000F6E1C /* y_Nigeria_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Nigeria_0.txt; sourceTree = "<group>"; };
+		29A2CA382B17D888000F6E1C /* y_Gambia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Gambia_0.txt; sourceTree = "<group>"; };
+		29A2CA392B17D888000F6E1C /* y_Liberia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Liberia_0.txt; sourceTree = "<group>"; };
+		29A2CA3A2B17D888000F6E1C /* y_Eritrea_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Eritrea_0.txt; sourceTree = "<group>"; };
+		29A2CA3B2B17D888000F6E1C /* y_South Sudan_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_South Sudan_0.txt"; sourceTree = "<group>"; };
+		29A2CA3C2B17D888000F6E1C /* y_Cote d'Ivoire_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Cote d'Ivoire_0.txt"; sourceTree = "<group>"; };
+		29A2CA3D2B17D888000F6E1C /* y_Egypt_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Egypt_0.txt; sourceTree = "<group>"; };
+		29A2CA3E2B17D888000F6E1C /* y_Kenya_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Kenya_0.txt; sourceTree = "<group>"; };
+		29A2CA3F2B17D888000F6E1C /* y_Seychelles_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Seychelles_0.txt; sourceTree = "<group>"; };
+		29A2CA402B17D888000F6E1C /* y_Malawi_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Malawi_0.txt; sourceTree = "<group>"; };
+		29A2CA412B17D888000F6E1C /* y_Uganda_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Uganda_0.txt; sourceTree = "<group>"; };
+		29A2CA422B17D888000F6E1C /* y_Zimbabwe_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Zimbabwe_0.txt; sourceTree = "<group>"; };
+		29A2CA432B17D888000F6E1C /* y_Gabon_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Gabon_0.txt; sourceTree = "<group>"; };
+		29A2CA442B17D888000F6E1C /* y_Tunisia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Tunisia_0.txt; sourceTree = "<group>"; };
+		29A2CA452B17D888000F6E1C /* y_Angola_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Angola_0.txt; sourceTree = "<group>"; };
+		29A2CA462B17D888000F6E1C /* y_Mayotte_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mayotte_0.txt; sourceTree = "<group>"; };
+		29A2CA472B17D888000F6E1C /* y_Sierra Leone_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Sierra Leone_0.txt"; sourceTree = "<group>"; };
+		29A2CA482B17D888000F6E1C /* y_Libya_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Libya_0.txt; sourceTree = "<group>"; };
+		29A2CA492B17D888000F6E1C /* y_Ghana_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Ghana_0.txt; sourceTree = "<group>"; };
+		29A2CA4A2B17D888000F6E1C /* y_Ethiopia_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Ethiopia_0.txt; sourceTree = "<group>"; };
+		29A2CA4B2B17D888000F6E1C /* y_Lesotho_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Lesotho_0.txt; sourceTree = "<group>"; };
+		29A2CA4C2B17D889000F6E1C /* y_French Southern Territories_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_French Southern Territories_0.txt"; sourceTree = "<group>"; };
+		29A2CA4D2B17D889000F6E1C /* y_Sudan_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Sudan_0.txt; sourceTree = "<group>"; };
+		29A2CA4E2B17D889000F6E1C /* y_Swaziland_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Swaziland_0.txt; sourceTree = "<group>"; };
+		29A2CA4F2B17D889000F6E1C /* y_Sao Tome and Principe_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "y_Sao Tome and Principe_0.txt"; sourceTree = "<group>"; };
+		29A2CA502B17D889000F6E1C /* y_Mauritius_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mauritius_0.txt; sourceTree = "<group>"; };
+		29BB30EB2B137016006D2DCA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		29BC6E852B15E613000CDDFA /* MonthlyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGraph.swift; sourceTree = "<group>"; };
+		29DA346D2B10DB4200EC0179 /* colortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colortest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291882C42B0F5193006762F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291882BE2B0F5193006762F4 = {
+			isa = PBXGroup;
+			children = (
+				291882C92B0F5193006762F4 /* DROP0 */,
+				291882C82B0F5193006762F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291882C82B0F5193006762F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291882C72B0F5193006762F4 /* DROP0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291882C92B0F5193006762F4 /* DROP0 */ = {
+			isa = PBXGroup;
+			children = (
+				29BB30EA2B137007006D2DCA /* Extension */,
+				291882EB2B0F5576006762F4 /* Data */,
+				291882DC2B0F51C6006762F4 /* App */,
+				291882F22B0F5667006762F4 /* MainView */,
+				291882F32B0F5691006762F4 /* InformationView */,
+				291882CE2B0F5195006762F4 /* Assets.xcassets */,
+				291882D02B0F5195006762F4 /* Preview Content */,
+			);
+			path = DROP0;
+			sourceTree = "<group>";
+		};
+		291882D02B0F5195006762F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				291882D12B0F5195006762F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		291882D82B0F51A6006762F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				291882DD2B0F520C006762F4 /* ModelCountry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		291882D92B0F51AC006762F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				291882E02B0F5270006762F4 /* VMMap.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		291882DA2B0F51B3006762F4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				291882E22B0F52B7006762F4 /* TabBar.swift */,
+				291882E42B0F5331006762F4 /* QuickInfoView.swift */,
+				2918834F2B0FAE56006762F4 /* CountriesListView.swift */,
+				294CA1A62B1112FD00C9BAFD /* WaterLevelLegend.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		291882DB2B0F51B9006762F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				291882E72B0F539D006762F4 /* MainMapView.swift */,
+				29DA346D2B10DB4200EC0179 /* colortest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291882DC2B0F51C6006762F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				291882CA2B0F5193006762F4 /* DROP0App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		291882EB2B0F5576006762F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				291882EF2B0F559E006762F4 /* Json */,
+				291882EC2B0F557B006762F4 /* WaterLevel */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		291882EC2B0F557B006762F4 /* WaterLevel */ = {
+			isa = PBXGroup;
+			children = (
+				291882EE2B0F558B006762F4 /* Monthly */,
+				291882ED2B0F5585006762F4 /* Yearly */,
+			);
+			path = WaterLevel;
+			sourceTree = "<group>";
+		};
+		291882ED2B0F5585006762F4 /* Yearly */ = {
+			isa = PBXGroup;
+			children = (
+				29A2CA212B17D887000F6E1C /* y_Algeria_0.txt */,
+				29A2CA452B17D888000F6E1C /* y_Angola_0.txt */,
+				29A2CA342B17D888000F6E1C /* y_Benin_0.txt */,
+				29A2CA1F2B17D887000F6E1C /* y_Botswana_0.txt */,
+				29A2CA272B17D887000F6E1C /* y_Burkina Faso_0.txt */,
+				29A2CA202B17D887000F6E1C /* y_Burundi_0.txt */,
+				29A2CA2F2B17D887000F6E1C /* y_Cameroon_0.txt */,
+				29A2CA232B17D887000F6E1C /* y_Cape Verde_0.txt */,
+				29A2CA1A2B17D887000F6E1C /* y_Central African Republic_0.txt */,
+				29A2CA172B17D886000F6E1C /* y_Chad_0.txt */,
+				29A2CA292B17D887000F6E1C /* y_Comoros_0.txt */,
+				29A2CA3C2B17D888000F6E1C /* y_Cote d'Ivoire_0.txt */,
+				29A2CA1B2B17D887000F6E1C /* y_Democratic Republic of the Congo_0.txt */,
+				29A2CA1E2B17D887000F6E1C /* y_Djibouti_0.txt */,
+				29A2CA3D2B17D888000F6E1C /* y_Egypt_0.txt */,
+				29A2CA322B17D887000F6E1C /* y_Equatorial Guinea_0.txt */,
+				29A2CA3A2B17D888000F6E1C /* y_Eritrea_0.txt */,
+				29A2CA4A2B17D888000F6E1C /* y_Ethiopia_0.txt */,
+				29A2CA4C2B17D889000F6E1C /* y_French Southern Territories_0.txt */,
+				29A2CA432B17D888000F6E1C /* y_Gabon_0.txt */,
+				29A2CA382B17D888000F6E1C /* y_Gambia_0.txt */,
+				29A2CA492B17D888000F6E1C /* y_Ghana_0.txt */,
+				29A2CA252B17D887000F6E1C /* y_Guinea_0.txt */,
+				29A2CA332B17D887000F6E1C /* y_Guinea-Bissau_0.txt */,
+				29A2CA3E2B17D888000F6E1C /* y_Kenya_0.txt */,
+				29A2CA4B2B17D888000F6E1C /* y_Lesotho_0.txt */,
+				29A2CA392B17D888000F6E1C /* y_Liberia_0.txt */,
+				29A2CA482B17D888000F6E1C /* y_Libya_0.txt */,
+				29A2CA2B2B17D887000F6E1C /* y_Madagascar_0.txt */,
+				29A2CA402B17D888000F6E1C /* y_Malawi_0.txt */,
+				29A2CA312B17D887000F6E1C /* y_Mali_0.txt */,
+				29A2CA262B17D887000F6E1C /* y_Mauritania_0.txt */,
+				29A2CA502B17D889000F6E1C /* y_Mauritius_0.txt */,
+				29A2CA462B17D888000F6E1C /* y_Mayotte_0.txt */,
+				29A2CA222B17D887000F6E1C /* y_Morocco_0.txt */,
+				29A2CA182B17D886000F6E1C /* y_Mozambique_0.txt */,
+				29A2CA2E2B17D887000F6E1C /* y_Namibia_0.txt */,
+				29A2CA362B17D888000F6E1C /* y_Niger_0.txt */,
+				29A2CA372B17D888000F6E1C /* y_Nigeria_0.txt */,
+				29A2CA2D2B17D887000F6E1C /* y_Republic of Congo_0.txt */,
+				29A2CA1D2B17D887000F6E1C /* y_Reunion_0.txt */,
+				29A2CA1C2B17D887000F6E1C /* y_Rwanda_0.txt */,
+				29A2CA4F2B17D889000F6E1C /* y_Sao Tome and Principe_0.txt */,
+				29A2CA302B17D887000F6E1C /* y_Senegal_0.txt */,
+				29A2CA3F2B17D888000F6E1C /* y_Seychelles_0.txt */,
+				29A2CA472B17D888000F6E1C /* y_Sierra Leone_0.txt */,
+				29A2CA282B17D887000F6E1C /* y_Somalia_0.txt */,
+				29A2CA242B17D887000F6E1C /* y_South Africa_0.txt */,
+				29A2CA3B2B17D888000F6E1C /* y_South Sudan_0.txt */,
+				29A2CA4D2B17D889000F6E1C /* y_Sudan_0.txt */,
+				29A2CA4E2B17D889000F6E1C /* y_Swaziland_0.txt */,
+				29A2CA2A2B17D887000F6E1C /* y_Tanzania_0.txt */,
+				29A2CA2C2B17D887000F6E1C /* y_Togo_0.txt */,
+				29A2CA442B17D888000F6E1C /* y_Tunisia_0.txt */,
+				29A2CA412B17D888000F6E1C /* y_Uganda_0.txt */,
+				29A2CA352B17D888000F6E1C /* y_Western Sahara_0.txt */,
+				29A2CA192B17D886000F6E1C /* y_Zambia_0.txt */,
+				29A2CA422B17D888000F6E1C /* y_Zimbabwe_0.txt */,
+			);
+			path = Yearly;
+			sourceTree = "<group>";
+		};
+		291882EE2B0F558B006762F4 /* Monthly */ = {
+			isa = PBXGroup;
+			children = (
+				29A2C93E2B17D6EF000F6E1C /* Algeria_0.txt */,
+				29A2C95F2B17D6F0000F6E1C /* Angola_0.txt */,
+				29A2C9502B17D6EF000F6E1C /* Benin_0.txt */,
+				29A2C9452B17D6EF000F6E1C /* Botswana_0.txt */,
+				29A2C9522B17D6EF000F6E1C /* Burkina Faso_0.txt */,
+				29A2C95D2B17D6F0000F6E1C /* Burundi_0.txt */,
+				29A2C94B2B17D6EF000F6E1C /* Cameroon_0.txt */,
+				29A2C9592B17D6F0000F6E1C /* Cape Verde_0.txt */,
+				29A2C9612B17D6F0000F6E1C /* Central African Republic_0.txt */,
+				29A2C9642B17D6F0000F6E1C /* Chad_0.txt */,
+				29A2C9542B17D6EF000F6E1C /* Comoros_0.txt */,
+				29A2C9422B17D6EF000F6E1C /* Cote d'Ivoire_0.txt */,
+				29A2C9472B17D6EF000F6E1C /* Democratic Republic of the Congo_0.txt */,
+				29A2C9382B17D6EE000F6E1C /* Djibouti_0.txt */,
+				29A2C93D2B17D6EF000F6E1C /* Egypt_0.txt */,
+				29A2C94E2B17D6EF000F6E1C /* Equatorial Guinea_0.txt */,
+				29A2C9372B17D6EE000F6E1C /* Eritrea_0.txt */,
+				29A2C9492B17D6EF000F6E1C /* Ethiopia_0.txt */,
+				29A2C92F2B17D6EE000F6E1C /* French Southern Territories_0.txt */,
+				29A2C94A2B17D6EF000F6E1C /* Gabon_0.txt */,
+				29A2C93A2B17D6EE000F6E1C /* Gambia_0.txt */,
+				29A2C9632B17D6F0000F6E1C /* Ghana_0.txt */,
+				29A2C92D2B17D6EE000F6E1C /* Guinea_0.txt */,
+				29A2C94F2B17D6EF000F6E1C /* Guinea-Bissau_0.txt */,
+				29A2C9602B17D6F0000F6E1C /* Kenya_0.txt */,
+				29A2C9652B17D6F0000F6E1C /* Lesotho_0.txt */,
+				29A2C93C2B17D6EE000F6E1C /* Liberia_0.txt */,
+				29A2C9532B17D6EF000F6E1C /* Libya_0.txt */,
+				29A2C95A2B17D6F0000F6E1C /* Madagascar_0.txt */,
+				29A2C9352B17D6EE000F6E1C /* Malawi_0.txt */,
+				29A2C9442B17D6EF000F6E1C /* Mali_0.txt */,
+				29A2C9572B17D6EF000F6E1C /* Mauritania_0.txt */,
+				29A2C94D2B17D6EF000F6E1C /* Mauritius_0.txt */,
+				29A2C9482B17D6EF000F6E1C /* Mayotte_0.txt */,
+				29A2C9552B17D6EF000F6E1C /* Morocco_0.txt */,
+				29A2C9392B17D6EE000F6E1C /* Mozambique_0.txt */,
+				29A2C95C2B17D6F0000F6E1C /* Namibia_0.txt */,
+				29A2C94C2B17D6EF000F6E1C /* Niger_0.txt */,
+				29A2C9622B17D6F0000F6E1C /* Nigeria_0.txt */,
+				29A2C9322B17D6EE000F6E1C /* Republic of Congo_0.txt */,
+				29A2C9302B17D6EE000F6E1C /* Reunion_0.txt */,
+				29A2C9582B17D6EF000F6E1C /* Rwanda_0.txt */,
+				29A2C9462B17D6EF000F6E1C /* Sao Tome and Principe_0.txt */,
+				29A2C9662B17D6F0000F6E1C /* Senegal_0.txt */,
+				29A2C9402B17D6EF000F6E1C /* Seychelles_0.txt */,
+				29A2C95E2B17D6F0000F6E1C /* Sierra Leone_0.txt */,
+				29A2C9342B17D6EE000F6E1C /* Somalia_0.txt */,
+				29A2C9332B17D6EE000F6E1C /* South Africa_0.txt */,
+				29A2C9362B17D6EE000F6E1C /* South Sudan_0.txt */,
+				29A2C93B2B17D6EE000F6E1C /* Sudan_0.txt */,
+				29A2C9432B17D6EF000F6E1C /* Swaziland_0.txt */,
+				29A2C9312B17D6EE000F6E1C /* Tanzania_0.txt */,
+				29A2C93F2B17D6EF000F6E1C /* Togo_0.txt */,
+				29A2C9512B17D6EF000F6E1C /* Tunisia_0.txt */,
+				29A2C95B2B17D6F0000F6E1C /* Uganda_0.txt */,
+				29A2C9562B17D6EF000F6E1C /* Western Sahara_0.txt */,
+				29A2C92E2B17D6EE000F6E1C /* Zambia_0.txt */,
+				29A2C9412B17D6EF000F6E1C /* Zimbabwe_0.txt */,
+			);
+			path = Monthly;
+			sourceTree = "<group>";
+		};
+		291882EF2B0F559E006762F4 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				2918834D2B0F8F28006762F4 /* Africa_Boundaries.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		291882F22B0F5667006762F4 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				291882D82B0F51A6006762F4 /* Model */,
+				291882D92B0F51AC006762F4 /* ViewModel */,
+				291882DA2B0F51B3006762F4 /* Component */,
+				291882DB2B0F51B9006762F4 /* View */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		291882F32B0F5691006762F4 /* InformationView */ = {
+			isa = PBXGroup;
+			children = (
+				291882F72B0F56AF006762F4 /* Model */,
+				291882F62B0F56AB006762F4 /* ViewModel */,
+				291882F52B0F56A5006762F4 /* Component */,
+				291882F42B0F56A1006762F4 /* View */,
+			);
+			path = InformationView;
+			sourceTree = "<group>";
+		};
+		291882F42B0F56A1006762F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				291883492B0F58E4006762F4 /* InformationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		291882F52B0F56A5006762F4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2918834B2B0F5E4E006762F4 /* GraphView.swift */,
+				29BC6E852B15E613000CDDFA /* MonthlyGraph.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		291882F62B0F56AB006762F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				291883472B0F5747006762F4 /* VMInformation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		291882F72B0F56AF006762F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29BB30EA2B137007006D2DCA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29BB30EB2B137016006D2DCA /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291882C62B0F5193006762F4 /* DROP0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291882D52B0F5195006762F4 /* Build configuration list for PBXNativeTarget "DROP0" */;
+			buildPhases = (
+				291882C32B0F5193006762F4 /* Sources */,
+				291882C42B0F5193006762F4 /* Frameworks */,
+				291882C52B0F5193006762F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DROP0;
+			productName = DROP0;
+			productReference = 291882C72B0F5193006762F4 /* DROP0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291882BF2B0F5193006762F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					291882C62B0F5193006762F4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 291882C22B0F5193006762F4 /* Build configuration list for PBXProject "DROP0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291882BE2B0F5193006762F4;
+			productRefGroup = 291882C82B0F5193006762F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291882C62B0F5193006762F4 /* DROP0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291882C52B0F5193006762F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A2CA7C2B17D889000F6E1C /* y_Zimbabwe_0.txt in Resources */,
+				29A2CA872B17D889000F6E1C /* y_Sudan_0.txt in Resources */,
+				291882D22B0F5195006762F4 /* Preview Assets.xcassets in Resources */,
+				29A2CA882B17D889000F6E1C /* y_Swaziland_0.txt in Resources */,
+				29A2C96B2B17D6F0000F6E1C /* Tanzania_0.txt in Resources */,
+				29A2CA6E2B17D889000F6E1C /* y_Benin_0.txt in Resources */,
+				29A2CA7A2B17D889000F6E1C /* y_Malawi_0.txt in Resources */,
+				29A2CA592B17D889000F6E1C /* y_Botswana_0.txt in Resources */,
+				29A2C98A2B17D6F0000F6E1C /* Benin_0.txt in Resources */,
+				29A2C9902B17D6F0000F6E1C /* Western Sahara_0.txt in Resources */,
+				29A2C96D2B17D6F0000F6E1C /* South Africa_0.txt in Resources */,
+				29A2C9742B17D6F0000F6E1C /* Gambia_0.txt in Resources */,
+				29A2CA692B17D889000F6E1C /* y_Cameroon_0.txt in Resources */,
+				29A2CA522B17D889000F6E1C /* y_Mozambique_0.txt in Resources */,
+				29A2C96C2B17D6F0000F6E1C /* Republic of Congo_0.txt in Resources */,
+				29A2CA572B17D889000F6E1C /* y_Reunion_0.txt in Resources */,
+				29A2C9972B17D6F0000F6E1C /* Burundi_0.txt in Resources */,
+				29A2CA822B17D889000F6E1C /* y_Libya_0.txt in Resources */,
+				29A2C99F2B17D6F0000F6E1C /* Lesotho_0.txt in Resources */,
+				29A2CA5F2B17D889000F6E1C /* y_Guinea_0.txt in Resources */,
+				29A2CA542B17D889000F6E1C /* y_Central African Republic_0.txt in Resources */,
+				29A2C96A2B17D6F0000F6E1C /* Reunion_0.txt in Resources */,
+				29A2C9782B17D6F0000F6E1C /* Algeria_0.txt in Resources */,
+				29A2CA812B17D889000F6E1C /* y_Sierra Leone_0.txt in Resources */,
+				29A2CA512B17D889000F6E1C /* y_Chad_0.txt in Resources */,
+				29A2CA5C2B17D889000F6E1C /* y_Morocco_0.txt in Resources */,
+				29A2C9862B17D6F0000F6E1C /* Niger_0.txt in Resources */,
+				2918834E2B0F8F28006762F4 /* Africa_Boundaries.json in Resources */,
+				29A2C9812B17D6F0000F6E1C /* Democratic Republic of the Congo_0.txt in Resources */,
+				29A2C9752B17D6F0000F6E1C /* Sudan_0.txt in Resources */,
+				29A2C9692B17D6F0000F6E1C /* French Southern Territories_0.txt in Resources */,
+				29A2C9772B17D6F0000F6E1C /* Egypt_0.txt in Resources */,
+				29A2C9822B17D6F0000F6E1C /* Mayotte_0.txt in Resources */,
+				29A2CA7D2B17D889000F6E1C /* y_Gabon_0.txt in Resources */,
+				29A2C98D2B17D6F0000F6E1C /* Libya_0.txt in Resources */,
+				29A2CA792B17D889000F6E1C /* y_Seychelles_0.txt in Resources */,
+				29A2CA732B17D889000F6E1C /* y_Liberia_0.txt in Resources */,
+				29A2C9952B17D6F0000F6E1C /* Uganda_0.txt in Resources */,
+				29A2C9732B17D6F0000F6E1C /* Mozambique_0.txt in Resources */,
+				29A2CA642B17D889000F6E1C /* y_Tanzania_0.txt in Resources */,
+				29A2CA532B17D889000F6E1C /* y_Zambia_0.txt in Resources */,
+				29A2C97B2B17D6F0000F6E1C /* Zimbabwe_0.txt in Resources */,
+				29A2CA5A2B17D889000F6E1C /* y_Burundi_0.txt in Resources */,
+				29A2C9792B17D6F0000F6E1C /* Togo_0.txt in Resources */,
+				29A2C9762B17D6F0000F6E1C /* Liberia_0.txt in Resources */,
+				29A2CA7E2B17D889000F6E1C /* y_Tunisia_0.txt in Resources */,
+				29A2CA622B17D889000F6E1C /* y_Somalia_0.txt in Resources */,
+				29A2CA6B2B17D889000F6E1C /* y_Mali_0.txt in Resources */,
+				29A2C9842B17D6F0000F6E1C /* Gabon_0.txt in Resources */,
+				29A2CA6F2B17D889000F6E1C /* y_Western Sahara_0.txt in Resources */,
+				29A2CA802B17D889000F6E1C /* y_Mayotte_0.txt in Resources */,
+				29A2C9912B17D6F0000F6E1C /* Mauritania_0.txt in Resources */,
+				29A2C9992B17D6F0000F6E1C /* Angola_0.txt in Resources */,
+				29A2C9722B17D6F0000F6E1C /* Djibouti_0.txt in Resources */,
+				29A2CA632B17D889000F6E1C /* y_Comoros_0.txt in Resources */,
+				29A2C99A2B17D6F0000F6E1C /* Kenya_0.txt in Resources */,
+				29A2CA5E2B17D889000F6E1C /* y_South Africa_0.txt in Resources */,
+				29A2CA772B17D889000F6E1C /* y_Egypt_0.txt in Resources */,
+				29A2CA722B17D889000F6E1C /* y_Gambia_0.txt in Resources */,
+				29A2C9962B17D6F0000F6E1C /* Namibia_0.txt in Resources */,
+				29A2C96E2B17D6F0000F6E1C /* Somalia_0.txt in Resources */,
+				29A2C9712B17D6F0000F6E1C /* Eritrea_0.txt in Resources */,
+				29A2CA612B17D889000F6E1C /* y_Burkina Faso_0.txt in Resources */,
+				29A2C9852B17D6F0000F6E1C /* Cameroon_0.txt in Resources */,
+				29A2C97F2B17D6F0000F6E1C /* Botswana_0.txt in Resources */,
+				29A2CA5B2B17D889000F6E1C /* y_Algeria_0.txt in Resources */,
+				29A2CA852B17D889000F6E1C /* y_Lesotho_0.txt in Resources */,
+				29A2C9982B17D6F0000F6E1C /* Sierra Leone_0.txt in Resources */,
+				29A2CA832B17D889000F6E1C /* y_Ghana_0.txt in Resources */,
+				29A2CA7B2B17D889000F6E1C /* y_Uganda_0.txt in Resources */,
+				29A2CA5D2B17D889000F6E1C /* y_Cape Verde_0.txt in Resources */,
+				29A2C99E2B17D6F0000F6E1C /* Chad_0.txt in Resources */,
+				29A2C9932B17D6F0000F6E1C /* Cape Verde_0.txt in Resources */,
+				29A2C9922B17D6F0000F6E1C /* Rwanda_0.txt in Resources */,
+				29A2CA862B17D889000F6E1C /* y_French Southern Territories_0.txt in Resources */,
+				29A2C96F2B17D6F0000F6E1C /* Malawi_0.txt in Resources */,
+				29A2C9A02B17D6F0000F6E1C /* Senegal_0.txt in Resources */,
+				29A2CA782B17D889000F6E1C /* y_Kenya_0.txt in Resources */,
+				29A2C99D2B17D6F0000F6E1C /* Ghana_0.txt in Resources */,
+				29A2C9682B17D6F0000F6E1C /* Zambia_0.txt in Resources */,
+				29A2CA6C2B17D889000F6E1C /* y_Equatorial Guinea_0.txt in Resources */,
+				29A2CA6A2B17D889000F6E1C /* y_Senegal_0.txt in Resources */,
+				29A2C9702B17D6F0000F6E1C /* South Sudan_0.txt in Resources */,
+				29A2CA582B17D889000F6E1C /* y_Djibouti_0.txt in Resources */,
+				29A2C9892B17D6F0000F6E1C /* Guinea-Bissau_0.txt in Resources */,
+				29A2CA892B17D889000F6E1C /* y_Sao Tome and Principe_0.txt in Resources */,
+				29A2CA562B17D889000F6E1C /* y_Rwanda_0.txt in Resources */,
+				29A2C9882B17D6F0000F6E1C /* Equatorial Guinea_0.txt in Resources */,
+				29A2C9672B17D6F0000F6E1C /* Guinea_0.txt in Resources */,
+				29A2CA702B17D889000F6E1C /* y_Niger_0.txt in Resources */,
+				29A2C99C2B17D6F0000F6E1C /* Nigeria_0.txt in Resources */,
+				29A2C97E2B17D6F0000F6E1C /* Mali_0.txt in Resources */,
+				29A2C9942B17D6F0000F6E1C /* Madagascar_0.txt in Resources */,
+				29A2CA762B17D889000F6E1C /* y_Cote d'Ivoire_0.txt in Resources */,
+				29A2C97C2B17D6F0000F6E1C /* Cote d'Ivoire_0.txt in Resources */,
+				29A2C98E2B17D6F0000F6E1C /* Comoros_0.txt in Resources */,
+				29A2C99B2B17D6F0000F6E1C /* Central African Republic_0.txt in Resources */,
+				29A2C9802B17D6F0000F6E1C /* Sao Tome and Principe_0.txt in Resources */,
+				29A2CA672B17D889000F6E1C /* y_Republic of Congo_0.txt in Resources */,
+				29A2C98F2B17D6F0000F6E1C /* Morocco_0.txt in Resources */,
+				29A2C9872B17D6F0000F6E1C /* Mauritius_0.txt in Resources */,
+				29A2C97D2B17D6F0000F6E1C /* Swaziland_0.txt in Resources */,
+				29A2CA552B17D889000F6E1C /* y_Democratic Republic of the Congo_0.txt in Resources */,
+				291882CF2B0F5195006762F4 /* Assets.xcassets in Resources */,
+				29A2CA6D2B17D889000F6E1C /* y_Guinea-Bissau_0.txt in Resources */,
+				29A2C9832B17D6F0000F6E1C /* Ethiopia_0.txt in Resources */,
+				29A2CA752B17D889000F6E1C /* y_South Sudan_0.txt in Resources */,
+				29A2CA662B17D889000F6E1C /* y_Togo_0.txt in Resources */,
+				29A2C97A2B17D6F0000F6E1C /* Seychelles_0.txt in Resources */,
+				29A2CA842B17D889000F6E1C /* y_Ethiopia_0.txt in Resources */,
+				29A2CA602B17D889000F6E1C /* y_Mauritania_0.txt in Resources */,
+				29A2CA7F2B17D889000F6E1C /* y_Angola_0.txt in Resources */,
+				29A2C98C2B17D6F0000F6E1C /* Burkina Faso_0.txt in Resources */,
+				29A2CA682B17D889000F6E1C /* y_Namibia_0.txt in Resources */,
+				29A2CA8A2B17D889000F6E1C /* y_Mauritius_0.txt in Resources */,
+				29A2CA712B17D889000F6E1C /* y_Nigeria_0.txt in Resources */,
+				29A2CA742B17D889000F6E1C /* y_Eritrea_0.txt in Resources */,
+				29A2C98B2B17D6F0000F6E1C /* Tunisia_0.txt in Resources */,
+				29A2CA652B17D889000F6E1C /* y_Madagascar_0.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291882C32B0F5193006762F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291882DE2B0F520C006762F4 /* ModelCountry.swift in Sources */,
+				2918834A2B0F58E4006762F4 /* InformationView.swift in Sources */,
+				29BC6E862B15E613000CDDFA /* MonthlyGraph.swift in Sources */,
+				2918834C2B0F5E4E006762F4 /* GraphView.swift in Sources */,
+				291883482B0F5747006762F4 /* VMInformation.swift in Sources */,
+				29BB30EC2B137016006D2DCA /* Color.swift in Sources */,
+				291882E82B0F539D006762F4 /* MainMapView.swift in Sources */,
+				291882E52B0F5331006762F4 /* QuickInfoView.swift in Sources */,
+				291882CB2B0F5193006762F4 /* DROP0App.swift in Sources */,
+				294CA1A72B1112FD00C9BAFD /* WaterLevelLegend.swift in Sources */,
+				29DA346E2B10DB4200EC0179 /* colortest.swift in Sources */,
+				291882E12B0F5270006762F4 /* VMMap.swift in Sources */,
+				291882E32B0F52B7006762F4 /* TabBar.swift in Sources */,
+				291883502B0FAE56006762F4 /* CountriesListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		291882D32B0F5195006762F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		291882D42B0F5195006762F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291882D62B0F5195006762F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DROP0/Preview Content\"";
+				DEVELOPMENT_TEAM = Q95G5GZ5U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DROP;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khaled-Shehadeh.DROP0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291882D72B0F5195006762F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DROP0/Preview Content\"";
+				DEVELOPMENT_TEAM = Q95G5GZ5U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DROP;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khaled-Shehadeh.DROP0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291882C22B0F5193006762F4 /* Build configuration list for PBXProject "DROP0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291882D32B0F5195006762F4 /* Debug */,
+				291882D42B0F5195006762F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291882D52B0F5195006762F4 /* Build configuration list for PBXNativeTarget "DROP0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291882D62B0F5195006762F4 /* Debug */,
+				291882D72B0F5195006762F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291882BF2B0F5193006762F4 /* Project object */;
+}
