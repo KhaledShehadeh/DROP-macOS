@@ -79,7 +79,7 @@ struct MainMapView: View
 							.foregroundStyle(color(country: country.properties))
 					}
 					
-					if true //!waterMap
+					if !waterMap
 					{
 						Marker(country.properties.name, systemImage: "drop.fill", coordinate: coordinates[0][0])
 							.tint(selected == country.properties ?
