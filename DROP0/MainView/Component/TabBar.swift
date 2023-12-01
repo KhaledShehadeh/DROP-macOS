@@ -106,7 +106,7 @@ struct TabBar: View
 				}
 			}
 			.buttonStyle(.borderedProminent)
-			.disabled(waterMap)
+//			.disabled(waterMap)
 			
 		}
 		.font(.title)

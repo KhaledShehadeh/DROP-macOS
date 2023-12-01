@@ -14,7 +14,7 @@ struct MainMapView: View
 {
 	@StateObject private var vm = VMMap()
 	
-	@State private var position: MapCameraPosition = .automatic
+//	@State private var position: MapCameraPosition = .automatic
 	
 	@State private var selected: ModelCountry.Properties?
 	
@@ -62,7 +62,7 @@ struct MainMapView: View
 	
 	var body: some View
 	{
-		Map(position: $position, selection: $selected)
+		Map(selection: $selected)
 		{
 			ForEach(vm.allCountries)
 			{
@@ -79,7 +79,7 @@ struct MainMapView: View
 							.foregroundStyle(color(country: country.properties))
 					}
 					
-					if !waterMap
+					if true //!waterMap
 					{
 						Marker(country.properties.name, systemImage: "drop.fill", coordinate: coordinates[0][0])
 							.tint(selected == country.properties ?
@@ -153,12 +153,9 @@ struct MainMapView: View
 		.overlay {
 			overlay
 		}
-		.onChange(of: waterMap) { _, _ in
-			selected = nil
-		}
-		.onChange(of: selected) { _, _ in
-			position = .automatic
-		}
+//		.onChange(of: waterMap) { _, _ in
+//			selected = nil
+//		}
 		
 	}
 }
@@ -180,7 +177,7 @@ extension MainMapView
 					if let selected = self.selected
 					{
 						QuickInfoView(country: selected, selectedCountry: $selected)
-							.frame(width: 600)
+							.frame(width: 500)
 							.padding()
 							.background(.thinMaterial)
 							.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
@@ -276,7 +273,7 @@ extension MainMapView
 					Spacer()
 					
 					TabBar(showCountriesList: $showCountryList, sattelite: $sattelite, waterMap: $waterMap, slider: $slider)
-						.frame(width: 300)
+						.frame(width: 230)
 						.padding(.vertical)
 						.background(.thinMaterial)
 						.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
