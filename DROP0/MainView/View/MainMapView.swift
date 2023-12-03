@@ -16,6 +16,8 @@ struct MainMapView: View
 	
 //	@State private var position: MapCameraPosition = .automatic
 	
+	@State private var showingQRCode = false
+	
 	@State private var selected: ModelCountry.Properties?
 	
 	@State private var showCountryList = false
@@ -134,6 +136,9 @@ struct MainMapView: View
 			.frame(height: 100)
 			.padding(.top)
 			.padding(.leading)
+			.onTapGesture {
+				showingQRCode.toggle()
+			}
 		}
 		#else
 		.safeAreaInset(edge: .bottom) {
@@ -281,9 +286,37 @@ extension MainMapView
 			}
 			.padding()
 			
+			if showingQRCode
+			{
+				VStack(spacing: 0)
+				{
+					HStack
+					{
+						Text("Share your Contact info.")
+						
+						
+						
+						Button("Exit")
+						{
+							showingQRCode = false
+						}
+						.buttonStyle(.borderedProminent)
+					}
+					.padding()
+					.background(.thinMaterial)
+					.clipShape(UnevenRoundedRectangle(topLeadingRadius: 10, bottomLeadingRadius: 0, bottomTrailingRadius: 0, topTrailingRadius: 10, style: .continuous))
+					
+					
+					Image(.contactUs)
+						.resizable()
+						.scaledToFit()
+						.frame(width: 300, height: 300)
+						.clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+				}
+			}
 			
 		}
-		.padding(.bottom, 100)
+		.padding(.bottom, 80)
 	}
 	
 	#else
