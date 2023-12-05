@@ -172,7 +172,7 @@ enum AfricaRegions: String, Decodable
 			case .Northern: return .purple
 			case .Southern: return .red
 			case .Central: return .orange
-			case .Eastern: return .gray
+			case .Eastern: return .green
 			case .Western: return .yellow
 		}
 	}

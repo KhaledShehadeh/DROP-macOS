@@ -28,20 +28,20 @@ struct MainMapView: View
 	
 	private func color(country: ModelCountry.Properties) -> Color
 	{
-		let opacity = 0.7
+		let opacity = 0.8
 		if waterMap
 		{
 			if let waterLevel = country.yearlyAverage?[Int(slider)]
 			{
 				if waterLevel < 0
 				{
-					let maxValue = 20.0
+					let maxValue = 9.0
 					let percent = abs(waterLevel) / maxValue
 					return Color.init(hue: 1, saturation: percent, brightness: 1).opacity(opacity)
 				}
 				else
 				{
-					let maxValue = 20.0
+					let maxValue = 9.0
 					let percent = abs(waterLevel) / maxValue
 					return Color.init(hue: 0.6, saturation: percent, brightness: 1).opacity(opacity)
 				}
@@ -98,6 +98,7 @@ struct MainMapView: View
 								
 							}
 						}
+						.tag(country.properties)
 					}
 					
 				}
@@ -128,7 +129,7 @@ struct MainMapView: View
 					.frame(width: 2)
 					.padding(.vertical)
 					
-				Image("NSSTClogo")
+				Image(.nsstcLogo)
 					.resizable()
 					.scaledToFit()
 					.frame(height: 50)
@@ -293,8 +294,6 @@ extension MainMapView
 					HStack
 					{
 						Text("Share your Contact info.")
-						
-						
 						
 						Button("Exit")
 						{

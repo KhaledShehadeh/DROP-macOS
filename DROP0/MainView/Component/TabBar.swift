@@ -89,21 +89,14 @@ struct TabBar: View
 			
 			Button
 			{
-				//					withAnimation(.easeInOut)
-				//					{
-				showCountriesList.toggle()
-				//					}
+//				withAnimation(.snappy)
+//				{
+					showCountriesList.toggle()
+//				}
 			} label: {
-				if showCountriesList
-				{
-					Label("Exit", systemImage: "x.circle")
-						.padding()
-				}
-				else
-				{
-					Label("All Countries", systemImage: "line.3.horizontal")
-						.padding()
-				}
+				Label("All Countries", systemImage: "line.3.horizontal")
+					.padding()
+				
 			}
 			.buttonStyle(.borderedProminent)
 //			.disabled(waterMap)

@@ -17,6 +17,7 @@ struct DROP0App: App
 			NavigationStack
 			{
 				MainMapView()
+					.preferredColorScheme(.dark)
 			}
 		}
 	}

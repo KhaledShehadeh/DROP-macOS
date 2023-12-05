@@ -104,9 +104,12 @@ struct QuickInfoView: View
 			.padding(.horizontal, 3)
 			.padding(.bottom)
 			
-			if let averages = country.yearlyAverage
+			if let averages = country.monthlyAverage
 			{
-				GraphView(data: averages)
+//				GraphView(data: averages)
+//					.frame(height: 500)
+				
+				WaterGraph(data: averages, yearly: true)
 					.frame(height: 500)
 			}
 			

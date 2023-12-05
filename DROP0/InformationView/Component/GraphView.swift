@@ -45,6 +45,7 @@ struct GraphView: View
 				
 			}
 		}
+		.chartLegend(.visible)
     }
 }
 
@@ -52,4 +53,5 @@ struct GraphView: View
 {
 	GraphView(data: [2, 1, -3, 1, -2])
 		.padding()
+		.preferredColorScheme(.dark)
 }
