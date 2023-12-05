@@ -56,7 +56,7 @@ struct CountriesListView: View
 	{
 		ScrollView
 		{
-			LazyVStack(spacing: 15)
+			LazyVStack(spacing: 25)
 			{
 				ForEach(countries, id: \.self)
 				{
@@ -95,12 +95,12 @@ struct CountriesListView: View
 	
 	private func list(country: ModelCountry.Properties) -> some View
 	{
-		HStack
+		HStack(spacing: 15)
 		{
 			Image(country.name)
 				.resizable()
 				.scaledToFit()
-				.frame(width: 40)
+				.frame(width: 50)
 				.foregroundStyle(.black)
 			
 			if selected == country
@@ -109,7 +109,7 @@ struct CountriesListView: View
 			}
 			Text(country.name)
 				.foregroundStyle(colorText(country: country))
-				.font(.subheadline)
+				.font(.headline)
 				.bold()
 				.lineLimit(1)
 			

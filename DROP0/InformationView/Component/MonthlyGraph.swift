@@ -8,19 +8,20 @@
 import SwiftUI
 import Charts
 
-struct MonthlyGraph: View 
+struct WaterGraph: View
 {
 	let data: [Double?]
+	let yearly: Bool
 	
 	func color(number: Double) -> Color
 	{
 		if number < 0
 		{
-			return Color.init(hue: 1, saturation: abs(number) / 2, brightness: 1)
+			return Color.init(hue: 1, saturation: abs(number) / 20, brightness: 1)
 		}
 		else
 		{
-			return Color.init(hue: 0.6, saturation: number / 2, brightness: 1)
+			return Color.init(hue: 0.6, saturation: number / 20, brightness: 1)
 		}
 	}
 	
@@ -42,10 +43,11 @@ struct MonthlyGraph: View
 			{
 				index, number in
 				
-				BarMark(x:.value("Date", createDate(index: index), unit: .month), y: .value("Water Level", number ?? 0)).foregroundStyle(color(number: number ?? 0))
+				BarMark(x:.value("Time", createDate(index: index), unit: yearly ? .year : .month), y: .value("Water Level", number ?? 0)).foregroundStyle(color(number: number ?? 0))
 				
 			}
 		}
+		.chartXAxis(.visible)
 		
 		
 	}
@@ -53,6 +55,6 @@ struct MonthlyGraph: View
 
 #Preview 
 {
-	MonthlyGraph(data: VMMap().allCountries[0].properties.monthlyAverage ?? [])
+	WaterGraph(data: VMMap().allCountries[0].properties.monthlyAverage ?? [], yearly: true)
 		.frame(width: 1000)
 }

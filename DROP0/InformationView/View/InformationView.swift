@@ -11,19 +11,11 @@ struct InformationView: View
 {
 	@StateObject private var vmInfo: VMInformation
 	
-	@State private var graphSelection: Graph = .Year
-	
 	@Environment(\.dismiss) private var dismiss
 	
 	init(country: ModelCountry.Properties)
 	{
 		_vmInfo = StateObject(wrappedValue: VMInformation(country: country))
-	}
-	
-	enum Graph: String, CaseIterable
-	{
-		case Year
-		case Month
 	}
 	
 	var body: some View
@@ -35,7 +27,7 @@ struct InformationView: View
 				Button
 				{
 					dismiss()
-				} label: 
+				} label:
 				{
 					Label("Back", systemImage: "chevron.left")
 						.padding()
@@ -55,65 +47,29 @@ struct InformationView: View
 				
 			}
 			
-			TabView(selection: $graphSelection)
+			if let monthlyData = vmInfo.monthlyData
 			{
-			
-				if let yearlyData = vmInfo.yearlyData
-				{
-					GraphView(data: yearlyData)
-						.frame(height: 600)
-						.padding(.horizontal)
-						.tag(Graph.Year)
-				}
-				
-				if let monthlyData = vmInfo.monthlyData
-				{
-					MonthlyGraph(data: monthlyData)
-						.frame(height: 600)
-						.padding(.horizontal)
-						.tag(Graph.Month)
-				}
+				WaterGraph(data: monthlyData, yearly: false)
+					.frame(height: 600)
+					.padding(.horizontal)
 			}
-			.tableStyle(.bordered)
 			
-			Text(graphSelection.rawValue)
+			Text("Monthly")
 				.font(.title)
 				.bold()
 			
 			Spacer()
-			/*
-			VStack(spacing: 50)
-			{
-				Text("Yearly Water Levels")
-					.font(.title)
-					.fontWeight(.bold)
-					.foregroundStyle(.blue)
-				
-				GraphView(data: vmInfo.yearlyData)
-					.frame(height: 600)
-					.padding(.horizontal)
-				
-				HStack
-				{
-					
-					Image("graph1")
-						.resizable()
-						.scaledToFit()
-						.frame(width: 400, height: 400)
-						.padding(.top)
-					
-				
-					Spacer()
-				}
-				
-			}
-			 */
 		}
+		.preferredColorScheme(.dark)
 	}
 }
 
 #Preview 
 {
-	InformationView(country: VMMap().allCountries[0].properties)
-		.frame(width: 1500, height: 1000)
+	NavigationStack
+	{
+		InformationView(country: VMMap().allCountries[0].properties)
+			.frame(width: 900, height: 500)
+			.preferredColorScheme(.dark)
+	}
 }
