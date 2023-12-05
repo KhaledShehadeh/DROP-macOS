@@ -17,11 +17,11 @@ struct WaterGraph: View
 	{
 		if number < 0
 		{
-			return Color.init(hue: 1, saturation: abs(number) / 10, brightness: 1)
+			return Color.init(hue: 1, saturation: abs(number) / 5, brightness: 1)
 		}
 		else
 		{
-			return Color.init(hue: 0.6, saturation: number / 10, brightness: 1)
+			return Color.init(hue: 0.6, saturation: number / 5, brightness: 1)
 		}
 	}
 	
