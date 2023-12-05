@@ -1,24 +1,19 @@
 //
-//  InformationView.swift
+//  MexicoStateGraph.swift
 //  DROP0
 //
-//  Created by Khaled Shehadeh on 23/11/2023.
+//  Created by Khaled Shehadeh on 05/12/2023.
 //
 
 import SwiftUI
 
-struct InformationView: View 
+struct MexicoStateGraph: View 
 {
-	@StateObject private var vmInfo: VMInformation
-	
 	@Environment(\.dismiss) private var dismiss
 	
-	init(country: ModelCountry.Properties)
-	{
-		_vmInfo = StateObject(wrappedValue: VMInformation(country: country))
-	}
+	let state: ModelMexicoState.Properties
 	
-	var body: some View
+    var body: some View
 	{
 		VStack
 		{
@@ -36,18 +31,21 @@ struct InformationView: View
 				
 				Spacer()
 				
-				Text(vmInfo.country.name + " Underground Water Levels")
+				Text(state.name + " Underground Water Levels")
 					.font(.title)
 					.bold()
 				
 				Spacer()
 				
-				Spacer()
+				Image(.mexicoFlagMap)
+					.resizable()
+					.scaledToFit()
 					.frame(width: 100)
+					.padding(.trailing)
 				
 			}
 			
-			if let monthlyData = vmInfo.monthlyData
+			if let monthlyData = state.monthlyAverage
 			{
 				WaterGraph(data: monthlyData, yearly: false)
 					.frame(height: 600)
@@ -60,15 +58,10 @@ struct InformationView: View
 			
 			Spacer()
 		}
-	}
+    }
 }
 
 #Preview 
 {
-	NavigationStack
-	{
-		InformationView(country: VMMap().allCountries[0].properties)
-			.frame(width: 900, height: 500)
-			.preferredColorScheme(.dark)
-	}
+	MexicoStateGraph(state: VMMexicoMap().states[0].properties)
 }

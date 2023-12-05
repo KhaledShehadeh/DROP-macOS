@@ -139,6 +139,78 @@
 		29A2CA8A2B17D889000F6E1C /* y_Mauritius_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29A2CA502B17D889000F6E1C /* y_Mauritius_0.txt */; };
 		29BB30EC2B137016006D2DCA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB30EB2B137016006D2DCA /* Color.swift */; };
 		29BC6E862B15E613000CDDFA /* MonthlyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC6E852B15E613000CDDFA /* MonthlyGraph.swift */; };
+		29C09FE52B1F94690096744B /* mexican-states_geo.json in Resources */ = {isa = PBXBuildFile; fileRef = 29C09FE42B1F94690096744B /* mexican-states_geo.json */; };
+		29C09FE92B1F950D0096744B /* ModelMexico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FE82B1F950D0096744B /* ModelMexico.swift */; };
+		29C09FEC2B1F96FF0096744B /* VMMexicoMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FEB2B1F96FF0096744B /* VMMexicoMap.swift */; };
+		29C09FEF2B1F98490096744B /* MexicoMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FEE2B1F98490096744B /* MexicoMapView.swift */; };
+		29C09FF22B1F99CA0096744B /* MexicoStateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FF12B1F99CA0096744B /* MexicoStateInfo.swift */; };
+		29C09FF42B1F9B9F0096744B /* MexicoStatesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FF32B1F9B9F0096744B /* MexicoStatesList.swift */; };
+		29C09FF92B1FA7FE0096744B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C09FF82B1FA7FE0096744B /* MainView.swift */; };
+		29C0A01A2B1FAEF30096744B /* San Luis Potosí_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C09FFC2B1FAEF10096744B /* San Luis Potosí_1.txt */; };
+		29C0A01B2B1FAEF30096744B /* Nayarit_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C09FFD2B1FAEF10096744B /* Nayarit_1.txt */; };
+		29C0A01C2B1FAEF30096744B /* Baja California Sur_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C09FFE2B1FAEF10096744B /* Baja California Sur_1.txt */; };
+		29C0A01D2B1FAEF30096744B /* Aguascalientes_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C09FFF2B1FAEF10096744B /* Aguascalientes_1.txt */; };
+		29C0A01E2B1FAEF30096744B /* Sonora_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0002B1FAEF10096744B /* Sonora_1.txt */; };
+		29C0A01F2B1FAEF30096744B /* Guerrero_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0012B1FAEF10096744B /* Guerrero_1.txt */; };
+		29C0A0202B1FAEF30096744B /* Hidalgo_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0022B1FAEF10096744B /* Hidalgo_1.txt */; };
+		29C0A0212B1FAEF30096744B /* Campeche_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0032B1FAEF10096744B /* Campeche_1.txt */; };
+		29C0A0222B1FAEF30096744B /* Tlaxcala_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0042B1FAEF10096744B /* Tlaxcala_1.txt */; };
+		29C0A0232B1FAEF30096744B /* Durango_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0052B1FAEF10096744B /* Durango_1.txt */; };
+		29C0A0242B1FAEF30096744B /* Chiapas_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0062B1FAEF10096744B /* Chiapas_1.txt */; };
+		29C0A0252B1FAEF30096744B /* Jalisco_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0072B1FAEF10096744B /* Jalisco_1.txt */; };
+		29C0A0262B1FAEF30096744B /* Puebla_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0082B1FAEF10096744B /* Puebla_1.txt */; };
+		29C0A0272B1FAEF30096744B /* Baja California_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0092B1FAEF20096744B /* Baja California_1.txt */; };
+		29C0A0282B1FAEF30096744B /* Quintana Roo_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00A2B1FAEF20096744B /* Quintana Roo_1.txt */; };
+		29C0A0292B1FAEF30096744B /* Veracruz de Ignacio de la Llave_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00B2B1FAEF20096744B /* Veracruz de Ignacio de la Llave_1.txt */; };
+		29C0A02A2B1FAEF30096744B /* Sinaloa_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00C2B1FAEF20096744B /* Sinaloa_1.txt */; };
+		29C0A02B2B1FAEF30096744B /* Chihuahua_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00D2B1FAEF20096744B /* Chihuahua_1.txt */; };
+		29C0A02C2B1FAEF30096744B /* Ciudad de México_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00E2B1FAEF20096744B /* Ciudad de México_1.txt */; };
+		29C0A02D2B1FAEF30096744B /* Oaxaca_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A00F2B1FAEF20096744B /* Oaxaca_1.txt */; };
+		29C0A02E2B1FAEF30096744B /* Michoacán de Ocampo_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0102B1FAEF20096744B /* Michoacán de Ocampo_1.txt */; };
+		29C0A02F2B1FAEF30096744B /* Coahuila de Zaragoza_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0112B1FAEF20096744B /* Coahuila de Zaragoza_1.txt */; };
+		29C0A0302B1FAEF30096744B /* Nuevo León_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0122B1FAEF20096744B /* Nuevo León_1.txt */; };
+		29C0A0312B1FAEF30096744B /* México_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0132B1FAEF20096744B /* México_1.txt */; };
+		29C0A0322B1FAEF30096744B /* Colima_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0142B1FAEF30096744B /* Colima_1.txt */; };
+		29C0A0332B1FAEF30096744B /* Guanajuato_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0152B1FAEF30096744B /* Guanajuato_1.txt */; };
+		29C0A0342B1FAEF30096744B /* Querétaro_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0162B1FAEF30096744B /* Querétaro_1.txt */; };
+		29C0A0352B1FAEF30096744B /* Morelos_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0172B1FAEF30096744B /* Morelos_1.txt */; };
+		29C0A0362B1FAEF30096744B /* Tamaulipas_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0182B1FAEF30096744B /* Tamaulipas_1.txt */; };
+		29C0A0372B1FAEF30096744B /* Tabasco_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0192B1FAEF30096744B /* Tabasco_1.txt */; };
+		29C0A0392B1FB0DC0096744B /* Yucatán_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0382B1FB0DC0096744B /* Yucatán_1.txt */; };
+		29C0A03B2B1FB11B0096744B /* Zacatecas_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A03A2B1FB11B0096744B /* Zacatecas_1.txt */; };
+		29C0A05C2B1FB2470096744B /* Campeche_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A03C2B1FB2450096744B /* Campeche_1_yearly.txt */; };
+		29C0A05D2B1FB2470096744B /* Chihuahua_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A03D2B1FB2450096744B /* Chihuahua_1_yearly.txt */; };
+		29C0A05E2B1FB2470096744B /* Sinaloa_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A03E2B1FB2450096744B /* Sinaloa_1_yearly.txt */; };
+		29C0A05F2B1FB2470096744B /* Quintana Roo_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A03F2B1FB2450096744B /* Quintana Roo_1_yearly.txt */; };
+		29C0A0602B1FB2470096744B /* Sonora_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0402B1FB2450096744B /* Sonora_1_yearly.txt */; };
+		29C0A0612B1FB2470096744B /* Puebla_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0412B1FB2450096744B /* Puebla_1_yearly.txt */; };
+		29C0A0622B1FB2470096744B /* Coahuila de Zaragoza_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0422B1FB2450096744B /* Coahuila de Zaragoza_1_yearly.txt */; };
+		29C0A0632B1FB2470096744B /* Chiapas_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0432B1FB2450096744B /* Chiapas_1_yearly.txt */; };
+		29C0A0642B1FB2470096744B /* Ciudad de México_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0442B1FB2450096744B /* Ciudad de México_1_yearly.txt */; };
+		29C0A0652B1FB2470096744B /* Querétaro_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0452B1FB2460096744B /* Querétaro_1_yearly.txt */; };
+		29C0A0662B1FB2470096744B /* Michoacán de Ocampo_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0462B1FB2460096744B /* Michoacán de Ocampo_1_yearly.txt */; };
+		29C0A0672B1FB2470096744B /* San Luis Potosí_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0472B1FB2460096744B /* San Luis Potosí_1_yearly.txt */; };
+		29C0A0682B1FB2470096744B /* Hidalgo_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0482B1FB2460096744B /* Hidalgo_1_yearly.txt */; };
+		29C0A0692B1FB2470096744B /* Colima_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0492B1FB2460096744B /* Colima_1_yearly.txt */; };
+		29C0A06A2B1FB2470096744B /* Nuevo León_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04A2B1FB2460096744B /* Nuevo León_1_yearly.txt */; };
+		29C0A06B2B1FB2470096744B /* México_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04B2B1FB2460096744B /* México_1_yearly.txt */; };
+		29C0A06C2B1FB2470096744B /* Tlaxcala_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04C2B1FB2460096744B /* Tlaxcala_1_yearly.txt */; };
+		29C0A06D2B1FB2470096744B /* Baja California Sur_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04D2B1FB2460096744B /* Baja California Sur_1_yearly.txt */; };
+		29C0A06E2B1FB2470096744B /* Aguascalientes_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04E2B1FB2460096744B /* Aguascalientes_1_yearly.txt */; };
+		29C0A06F2B1FB2470096744B /* Guerrero_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A04F2B1FB2460096744B /* Guerrero_1_yearly.txt */; };
+		29C0A0702B1FB2470096744B /* Oaxaca_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0502B1FB2460096744B /* Oaxaca_1_yearly.txt */; };
+		29C0A0712B1FB2470096744B /* Baja California_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0512B1FB2460096744B /* Baja California_1_yearly.txt */; };
+		29C0A0722B1FB2470096744B /* Tabasco_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0522B1FB2470096744B /* Tabasco_1_yearly.txt */; };
+		29C0A0732B1FB2470096744B /* Tamaulipas_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0532B1FB2470096744B /* Tamaulipas_1_yearly.txt */; };
+		29C0A0742B1FB2470096744B /* Zacatecas_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0542B1FB2470096744B /* Zacatecas_1_yearly.txt */; };
+		29C0A0752B1FB2470096744B /* Yucatán_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0552B1FB2470096744B /* Yucatán_1_yearly.txt */; };
+		29C0A0762B1FB2470096744B /* Nayarit_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0562B1FB2470096744B /* Nayarit_1_yearly.txt */; };
+		29C0A0772B1FB2470096744B /* Veracruz de Ignacio de la Llave_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0572B1FB2470096744B /* Veracruz de Ignacio de la Llave_1_yearly.txt */; };
+		29C0A0782B1FB2470096744B /* Jalisco_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0582B1FB2470096744B /* Jalisco_1_yearly.txt */; };
+		29C0A0792B1FB2470096744B /* Guanajuato_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A0592B1FB2470096744B /* Guanajuato_1_yearly.txt */; };
+		29C0A07A2B1FB2470096744B /* Morelos_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A05A2B1FB2470096744B /* Morelos_1_yearly.txt */; };
+		29C0A07B2B1FB2470096744B /* Durango_1_yearly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29C0A05B2B1FB2470096744B /* Durango_1_yearly.txt */; };
+		29C0A07D2B1FB4210096744B /* MexicoStateGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0A07C2B1FB4210096744B /* MexicoStateGraph.swift */; };
 		29DA346E2B10DB4200EC0179 /* colortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA346D2B10DB4200EC0179 /* colortest.swift */; };
 /* End PBXBuildFile section */
 
@@ -276,6 +348,78 @@
 		29A2CA502B17D889000F6E1C /* y_Mauritius_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = y_Mauritius_0.txt; sourceTree = "<group>"; };
 		29BB30EB2B137016006D2DCA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		29BC6E852B15E613000CDDFA /* MonthlyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGraph.swift; sourceTree = "<group>"; };
+		29C09FE42B1F94690096744B /* mexican-states_geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mexican-states_geo.json"; sourceTree = "<group>"; };
+		29C09FE82B1F950D0096744B /* ModelMexico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMexico.swift; sourceTree = "<group>"; };
+		29C09FEB2B1F96FF0096744B /* VMMexicoMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMMexicoMap.swift; sourceTree = "<group>"; };
+		29C09FEE2B1F98490096744B /* MexicoMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoMapView.swift; sourceTree = "<group>"; };
+		29C09FF12B1F99CA0096744B /* MexicoStateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoStateInfo.swift; sourceTree = "<group>"; };
+		29C09FF32B1F9B9F0096744B /* MexicoStatesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoStatesList.swift; sourceTree = "<group>"; };
+		29C09FF82B1FA7FE0096744B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		29C09FFC2B1FAEF10096744B /* San Luis Potosí_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "San Luis Potosí_1.txt"; sourceTree = "<group>"; };
+		29C09FFD2B1FAEF10096744B /* Nayarit_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nayarit_1.txt; sourceTree = "<group>"; };
+		29C09FFE2B1FAEF10096744B /* Baja California Sur_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Baja California Sur_1.txt"; sourceTree = "<group>"; };
+		29C09FFF2B1FAEF10096744B /* Aguascalientes_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aguascalientes_1.txt; sourceTree = "<group>"; };
+		29C0A0002B1FAEF10096744B /* Sonora_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sonora_1.txt; sourceTree = "<group>"; };
+		29C0A0012B1FAEF10096744B /* Guerrero_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Guerrero_1.txt; sourceTree = "<group>"; };
+		29C0A0022B1FAEF10096744B /* Hidalgo_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hidalgo_1.txt; sourceTree = "<group>"; };
+		29C0A0032B1FAEF10096744B /* Campeche_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Campeche_1.txt; sourceTree = "<group>"; };
+		29C0A0042B1FAEF10096744B /* Tlaxcala_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tlaxcala_1.txt; sourceTree = "<group>"; };
+		29C0A0052B1FAEF10096744B /* Durango_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Durango_1.txt; sourceTree = "<group>"; };
+		29C0A0062B1FAEF10096744B /* Chiapas_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chiapas_1.txt; sourceTree = "<group>"; };
+		29C0A0072B1FAEF10096744B /* Jalisco_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jalisco_1.txt; sourceTree = "<group>"; };
+		29C0A0082B1FAEF10096744B /* Puebla_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puebla_1.txt; sourceTree = "<group>"; };
+		29C0A0092B1FAEF20096744B /* Baja California_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Baja California_1.txt"; sourceTree = "<group>"; };
+		29C0A00A2B1FAEF20096744B /* Quintana Roo_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quintana Roo_1.txt"; sourceTree = "<group>"; };
+		29C0A00B2B1FAEF20096744B /* Veracruz de Ignacio de la Llave_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Veracruz de Ignacio de la Llave_1.txt"; sourceTree = "<group>"; };
+		29C0A00C2B1FAEF20096744B /* Sinaloa_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sinaloa_1.txt; sourceTree = "<group>"; };
+		29C0A00D2B1FAEF20096744B /* Chihuahua_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chihuahua_1.txt; sourceTree = "<group>"; };
+		29C0A00E2B1FAEF20096744B /* Ciudad de México_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ciudad de México_1.txt"; sourceTree = "<group>"; };
+		29C0A00F2B1FAEF20096744B /* Oaxaca_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oaxaca_1.txt; sourceTree = "<group>"; };
+		29C0A0102B1FAEF20096744B /* Michoacán de Ocampo_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Michoacán de Ocampo_1.txt"; sourceTree = "<group>"; };
+		29C0A0112B1FAEF20096744B /* Coahuila de Zaragoza_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coahuila de Zaragoza_1.txt"; sourceTree = "<group>"; };
+		29C0A0122B1FAEF20096744B /* Nuevo León_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nuevo León_1.txt"; sourceTree = "<group>"; };
+		29C0A0132B1FAEF20096744B /* México_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "México_1.txt"; sourceTree = "<group>"; };
+		29C0A0142B1FAEF30096744B /* Colima_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colima_1.txt; sourceTree = "<group>"; };
+		29C0A0152B1FAEF30096744B /* Guanajuato_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Guanajuato_1.txt; sourceTree = "<group>"; };
+		29C0A0162B1FAEF30096744B /* Querétaro_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Querétaro_1.txt"; sourceTree = "<group>"; };
+		29C0A0172B1FAEF30096744B /* Morelos_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morelos_1.txt; sourceTree = "<group>"; };
+		29C0A0182B1FAEF30096744B /* Tamaulipas_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tamaulipas_1.txt; sourceTree = "<group>"; };
+		29C0A0192B1FAEF30096744B /* Tabasco_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tabasco_1.txt; sourceTree = "<group>"; };
+		29C0A0382B1FB0DC0096744B /* Yucatán_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Yucatán_1.txt"; sourceTree = "<group>"; };
+		29C0A03A2B1FB11B0096744B /* Zacatecas_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zacatecas_1.txt; sourceTree = "<group>"; };
+		29C0A03C2B1FB2450096744B /* Campeche_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Campeche_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A03D2B1FB2450096744B /* Chihuahua_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chihuahua_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A03E2B1FB2450096744B /* Sinaloa_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sinaloa_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A03F2B1FB2450096744B /* Quintana Roo_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quintana Roo_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0402B1FB2450096744B /* Sonora_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sonora_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0412B1FB2450096744B /* Puebla_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puebla_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0422B1FB2450096744B /* Coahuila de Zaragoza_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coahuila de Zaragoza_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0432B1FB2450096744B /* Chiapas_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chiapas_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0442B1FB2450096744B /* Ciudad de México_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ciudad de México_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0452B1FB2460096744B /* Querétaro_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Querétaro_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0462B1FB2460096744B /* Michoacán de Ocampo_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Michoacán de Ocampo_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0472B1FB2460096744B /* San Luis Potosí_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "San Luis Potosí_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0482B1FB2460096744B /* Hidalgo_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hidalgo_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0492B1FB2460096744B /* Colima_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colima_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A04A2B1FB2460096744B /* Nuevo León_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nuevo León_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A04B2B1FB2460096744B /* México_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "México_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A04C2B1FB2460096744B /* Tlaxcala_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tlaxcala_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A04D2B1FB2460096744B /* Baja California Sur_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Baja California Sur_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A04E2B1FB2460096744B /* Aguascalientes_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aguascalientes_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A04F2B1FB2460096744B /* Guerrero_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Guerrero_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0502B1FB2460096744B /* Oaxaca_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oaxaca_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0512B1FB2460096744B /* Baja California_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Baja California_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0522B1FB2470096744B /* Tabasco_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tabasco_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0532B1FB2470096744B /* Tamaulipas_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tamaulipas_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0542B1FB2470096744B /* Zacatecas_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zacatecas_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0552B1FB2470096744B /* Yucatán_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Yucatán_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0562B1FB2470096744B /* Nayarit_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nayarit_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0572B1FB2470096744B /* Veracruz de Ignacio de la Llave_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Veracruz de Ignacio de la Llave_1_yearly.txt"; sourceTree = "<group>"; };
+		29C0A0582B1FB2470096744B /* Jalisco_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jalisco_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A0592B1FB2470096744B /* Guanajuato_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Guanajuato_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A05A2B1FB2470096744B /* Morelos_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morelos_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A05B2B1FB2470096744B /* Durango_1_yearly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Durango_1_yearly.txt; sourceTree = "<group>"; };
+		29C0A07C2B1FB4210096744B /* MexicoStateGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoStateGraph.swift; sourceTree = "<group>"; };
 		29DA346D2B10DB4200EC0179 /* colortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colortest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -314,6 +458,7 @@
 				291882DC2B0F51C6006762F4 /* App */,
 				291882F22B0F5667006762F4 /* MainView */,
 				291882F32B0F5691006762F4 /* InformationView */,
+				29C09FE62B1F94DA0096744B /* Mexico */,
 				291882CE2B0F5195006762F4 /* Assets.xcassets */,
 				291882D02B0F5195006762F4 /* Preview Content */,
 			);
@@ -368,6 +513,7 @@
 			isa = PBXGroup;
 			children = (
 				291882CA2B0F5193006762F4 /* DROP0App.swift */,
+				29C09FF82B1FA7FE0096744B /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -375,6 +521,7 @@
 		291882EB2B0F5576006762F4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				29C09FF52B1FA3490096744B /* Mexico */,
 				291882EF2B0F559E006762F4 /* Json */,
 				291882EC2B0F557B006762F4 /* WaterLevel */,
 			);
@@ -590,6 +737,139 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		29C09FE62B1F94DA0096744B /* Mexico */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FE72B1F94FA0096744B /* Model */,
+				29C09FEA2B1F96E10096744B /* ViewModel */,
+				29C09FF02B1F99B10096744B /* Component */,
+				29C09FED2B1F983D0096744B /* View */,
+			);
+			path = Mexico;
+			sourceTree = "<group>";
+		};
+		29C09FE72B1F94FA0096744B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FE82B1F950D0096744B /* ModelMexico.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29C09FEA2B1F96E10096744B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FEB2B1F96FF0096744B /* VMMexicoMap.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29C09FED2B1F983D0096744B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FEE2B1F98490096744B /* MexicoMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29C09FF02B1F99B10096744B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FF12B1F99CA0096744B /* MexicoStateInfo.swift */,
+				29C09FF32B1F9B9F0096744B /* MexicoStatesList.swift */,
+				29C0A07C2B1FB4210096744B /* MexicoStateGraph.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		29C09FF52B1FA3490096744B /* Mexico */ = {
+			isa = PBXGroup;
+			children = (
+				29C09FF72B1FA3620096744B /* Yearly */,
+				29C09FF62B1FA3550096744B /* Monthly */,
+				29C09FE42B1F94690096744B /* mexican-states_geo.json */,
+			);
+			path = Mexico;
+			sourceTree = "<group>";
+		};
+		29C09FF62B1FA3550096744B /* Monthly */ = {
+			isa = PBXGroup;
+			children = (
+				29C0A03A2B1FB11B0096744B /* Zacatecas_1.txt */,
+				29C0A0382B1FB0DC0096744B /* Yucatán_1.txt */,
+				29C09FFF2B1FAEF10096744B /* Aguascalientes_1.txt */,
+				29C09FFE2B1FAEF10096744B /* Baja California Sur_1.txt */,
+				29C0A0092B1FAEF20096744B /* Baja California_1.txt */,
+				29C0A0032B1FAEF10096744B /* Campeche_1.txt */,
+				29C0A0062B1FAEF10096744B /* Chiapas_1.txt */,
+				29C0A00D2B1FAEF20096744B /* Chihuahua_1.txt */,
+				29C0A00E2B1FAEF20096744B /* Ciudad de México_1.txt */,
+				29C0A0112B1FAEF20096744B /* Coahuila de Zaragoza_1.txt */,
+				29C0A0142B1FAEF30096744B /* Colima_1.txt */,
+				29C0A0052B1FAEF10096744B /* Durango_1.txt */,
+				29C0A0152B1FAEF30096744B /* Guanajuato_1.txt */,
+				29C0A0012B1FAEF10096744B /* Guerrero_1.txt */,
+				29C0A0022B1FAEF10096744B /* Hidalgo_1.txt */,
+				29C0A0072B1FAEF10096744B /* Jalisco_1.txt */,
+				29C0A0132B1FAEF20096744B /* México_1.txt */,
+				29C0A0102B1FAEF20096744B /* Michoacán de Ocampo_1.txt */,
+				29C0A0172B1FAEF30096744B /* Morelos_1.txt */,
+				29C09FFD2B1FAEF10096744B /* Nayarit_1.txt */,
+				29C0A0122B1FAEF20096744B /* Nuevo León_1.txt */,
+				29C0A00F2B1FAEF20096744B /* Oaxaca_1.txt */,
+				29C0A0082B1FAEF10096744B /* Puebla_1.txt */,
+				29C0A0162B1FAEF30096744B /* Querétaro_1.txt */,
+				29C0A00A2B1FAEF20096744B /* Quintana Roo_1.txt */,
+				29C09FFC2B1FAEF10096744B /* San Luis Potosí_1.txt */,
+				29C0A00C2B1FAEF20096744B /* Sinaloa_1.txt */,
+				29C0A0002B1FAEF10096744B /* Sonora_1.txt */,
+				29C0A0192B1FAEF30096744B /* Tabasco_1.txt */,
+				29C0A0182B1FAEF30096744B /* Tamaulipas_1.txt */,
+				29C0A0042B1FAEF10096744B /* Tlaxcala_1.txt */,
+				29C0A00B2B1FAEF20096744B /* Veracruz de Ignacio de la Llave_1.txt */,
+			);
+			path = Monthly;
+			sourceTree = "<group>";
+		};
+		29C09FF72B1FA3620096744B /* Yearly */ = {
+			isa = PBXGroup;
+			children = (
+				29C0A04E2B1FB2460096744B /* Aguascalientes_1_yearly.txt */,
+				29C0A04D2B1FB2460096744B /* Baja California Sur_1_yearly.txt */,
+				29C0A0512B1FB2460096744B /* Baja California_1_yearly.txt */,
+				29C0A03C2B1FB2450096744B /* Campeche_1_yearly.txt */,
+				29C0A0432B1FB2450096744B /* Chiapas_1_yearly.txt */,
+				29C0A03D2B1FB2450096744B /* Chihuahua_1_yearly.txt */,
+				29C0A0442B1FB2450096744B /* Ciudad de México_1_yearly.txt */,
+				29C0A0422B1FB2450096744B /* Coahuila de Zaragoza_1_yearly.txt */,
+				29C0A0492B1FB2460096744B /* Colima_1_yearly.txt */,
+				29C0A05B2B1FB2470096744B /* Durango_1_yearly.txt */,
+				29C0A0592B1FB2470096744B /* Guanajuato_1_yearly.txt */,
+				29C0A04F2B1FB2460096744B /* Guerrero_1_yearly.txt */,
+				29C0A0482B1FB2460096744B /* Hidalgo_1_yearly.txt */,
+				29C0A0582B1FB2470096744B /* Jalisco_1_yearly.txt */,
+				29C0A04B2B1FB2460096744B /* México_1_yearly.txt */,
+				29C0A0462B1FB2460096744B /* Michoacán de Ocampo_1_yearly.txt */,
+				29C0A05A2B1FB2470096744B /* Morelos_1_yearly.txt */,
+				29C0A0562B1FB2470096744B /* Nayarit_1_yearly.txt */,
+				29C0A04A2B1FB2460096744B /* Nuevo León_1_yearly.txt */,
+				29C0A0502B1FB2460096744B /* Oaxaca_1_yearly.txt */,
+				29C0A0412B1FB2450096744B /* Puebla_1_yearly.txt */,
+				29C0A0452B1FB2460096744B /* Querétaro_1_yearly.txt */,
+				29C0A03F2B1FB2450096744B /* Quintana Roo_1_yearly.txt */,
+				29C0A0472B1FB2460096744B /* San Luis Potosí_1_yearly.txt */,
+				29C0A03E2B1FB2450096744B /* Sinaloa_1_yearly.txt */,
+				29C0A0402B1FB2450096744B /* Sonora_1_yearly.txt */,
+				29C0A0522B1FB2470096744B /* Tabasco_1_yearly.txt */,
+				29C0A0532B1FB2470096744B /* Tamaulipas_1_yearly.txt */,
+				29C0A04C2B1FB2460096744B /* Tlaxcala_1_yearly.txt */,
+				29C0A0572B1FB2470096744B /* Veracruz de Ignacio de la Llave_1_yearly.txt */,
+				29C0A0552B1FB2470096744B /* Yucatán_1_yearly.txt */,
+				29C0A0542B1FB2470096744B /* Zacatecas_1_yearly.txt */,
+			);
+			path = Yearly;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -649,14 +929,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A2CA7C2B17D889000F6E1C /* y_Zimbabwe_0.txt in Resources */,
+				29C0A02B2B1FAEF30096744B /* Chihuahua_1.txt in Resources */,
+				29C0A05E2B1FB2470096744B /* Sinaloa_1_yearly.txt in Resources */,
+				29C0A0372B1FAEF30096744B /* Tabasco_1.txt in Resources */,
 				29A2CA872B17D889000F6E1C /* y_Sudan_0.txt in Resources */,
+				29C0A05C2B1FB2470096744B /* Campeche_1_yearly.txt in Resources */,
 				291882D22B0F5195006762F4 /* Preview Assets.xcassets in Resources */,
+				29C0A06A2B1FB2470096744B /* Nuevo León_1_yearly.txt in Resources */,
 				29A2CA882B17D889000F6E1C /* y_Swaziland_0.txt in Resources */,
 				29A2C96B2B17D6F0000F6E1C /* Tanzania_0.txt in Resources */,
+				29C0A01E2B1FAEF30096744B /* Sonora_1.txt in Resources */,
 				29A2CA6E2B17D889000F6E1C /* y_Benin_0.txt in Resources */,
 				29A2CA7A2B17D889000F6E1C /* y_Malawi_0.txt in Resources */,
+				29C0A0312B1FAEF30096744B /* México_1.txt in Resources */,
 				29A2CA592B17D889000F6E1C /* y_Botswana_0.txt in Resources */,
+				29C0A0602B1FB2470096744B /* Sonora_1_yearly.txt in Resources */,
+				29C0A0622B1FB2470096744B /* Coahuila de Zaragoza_1_yearly.txt in Resources */,
 				29A2C98A2B17D6F0000F6E1C /* Benin_0.txt in Resources */,
+				29C0A01B2B1FAEF30096744B /* Nayarit_1.txt in Resources */,
 				29A2C9902B17D6F0000F6E1C /* Western Sahara_0.txt in Resources */,
 				29A2C96D2B17D6F0000F6E1C /* South Africa_0.txt in Resources */,
 				29A2C9742B17D6F0000F6E1C /* Gambia_0.txt in Resources */,
@@ -664,27 +954,41 @@
 				29A2CA522B17D889000F6E1C /* y_Mozambique_0.txt in Resources */,
 				29A2C96C2B17D6F0000F6E1C /* Republic of Congo_0.txt in Resources */,
 				29A2CA572B17D889000F6E1C /* y_Reunion_0.txt in Resources */,
+				29C0A0762B1FB2470096744B /* Nayarit_1_yearly.txt in Resources */,
+				29C0A02D2B1FAEF30096744B /* Oaxaca_1.txt in Resources */,
 				29A2C9972B17D6F0000F6E1C /* Burundi_0.txt in Resources */,
 				29A2CA822B17D889000F6E1C /* y_Libya_0.txt in Resources */,
+				29C0A0202B1FAEF30096744B /* Hidalgo_1.txt in Resources */,
 				29A2C99F2B17D6F0000F6E1C /* Lesotho_0.txt in Resources */,
 				29A2CA5F2B17D889000F6E1C /* y_Guinea_0.txt in Resources */,
+				29C0A0272B1FAEF30096744B /* Baja California_1.txt in Resources */,
 				29A2CA542B17D889000F6E1C /* y_Central African Republic_0.txt in Resources */,
+				29C0A0352B1FAEF30096744B /* Morelos_1.txt in Resources */,
 				29A2C96A2B17D6F0000F6E1C /* Reunion_0.txt in Resources */,
+				29C0A0292B1FAEF30096744B /* Veracruz de Ignacio de la Llave_1.txt in Resources */,
+				29C0A0242B1FAEF30096744B /* Chiapas_1.txt in Resources */,
 				29A2C9782B17D6F0000F6E1C /* Algeria_0.txt in Resources */,
 				29A2CA812B17D889000F6E1C /* y_Sierra Leone_0.txt in Resources */,
+				29C0A06E2B1FB2470096744B /* Aguascalientes_1_yearly.txt in Resources */,
 				29A2CA512B17D889000F6E1C /* y_Chad_0.txt in Resources */,
+				29C0A0722B1FB2470096744B /* Tabasco_1_yearly.txt in Resources */,
+				29C0A0702B1FB2470096744B /* Oaxaca_1_yearly.txt in Resources */,
 				29A2CA5C2B17D889000F6E1C /* y_Morocco_0.txt in Resources */,
 				29A2C9862B17D6F0000F6E1C /* Niger_0.txt in Resources */,
 				2918834E2B0F8F28006762F4 /* Africa_Boundaries.json in Resources */,
+				29C0A0652B1FB2470096744B /* Querétaro_1_yearly.txt in Resources */,
 				29A2C9812B17D6F0000F6E1C /* Democratic Republic of the Congo_0.txt in Resources */,
 				29A2C9752B17D6F0000F6E1C /* Sudan_0.txt in Resources */,
 				29A2C9692B17D6F0000F6E1C /* French Southern Territories_0.txt in Resources */,
+				29C0A0692B1FB2470096744B /* Colima_1_yearly.txt in Resources */,
+				29C09FE52B1F94690096744B /* mexican-states_geo.json in Resources */,
 				29A2C9772B17D6F0000F6E1C /* Egypt_0.txt in Resources */,
 				29A2C9822B17D6F0000F6E1C /* Mayotte_0.txt in Resources */,
 				29A2CA7D2B17D889000F6E1C /* y_Gabon_0.txt in Resources */,
 				29A2C98D2B17D6F0000F6E1C /* Libya_0.txt in Resources */,
 				29A2CA792B17D889000F6E1C /* y_Seychelles_0.txt in Resources */,
 				29A2CA732B17D889000F6E1C /* y_Liberia_0.txt in Resources */,
+				29C0A0342B1FAEF30096744B /* Querétaro_1.txt in Resources */,
 				29A2C9952B17D6F0000F6E1C /* Uganda_0.txt in Resources */,
 				29A2C9732B17D6F0000F6E1C /* Mozambique_0.txt in Resources */,
 				29A2CA642B17D889000F6E1C /* y_Tanzania_0.txt in Resources */,
@@ -695,14 +999,21 @@
 				29A2C9762B17D6F0000F6E1C /* Liberia_0.txt in Resources */,
 				29A2CA7E2B17D889000F6E1C /* y_Tunisia_0.txt in Resources */,
 				29A2CA622B17D889000F6E1C /* y_Somalia_0.txt in Resources */,
+				29C0A0632B1FB2470096744B /* Chiapas_1_yearly.txt in Resources */,
 				29A2CA6B2B17D889000F6E1C /* y_Mali_0.txt in Resources */,
 				29A2C9842B17D6F0000F6E1C /* Gabon_0.txt in Resources */,
 				29A2CA6F2B17D889000F6E1C /* y_Western Sahara_0.txt in Resources */,
 				29A2CA802B17D889000F6E1C /* y_Mayotte_0.txt in Resources */,
 				29A2C9912B17D6F0000F6E1C /* Mauritania_0.txt in Resources */,
 				29A2C9992B17D6F0000F6E1C /* Angola_0.txt in Resources */,
+				29C0A06D2B1FB2470096744B /* Baja California Sur_1_yearly.txt in Resources */,
+				29C0A0742B1FB2470096744B /* Zacatecas_1_yearly.txt in Resources */,
+				29C0A0712B1FB2470096744B /* Baja California_1_yearly.txt in Resources */,
+				29C0A0612B1FB2470096744B /* Puebla_1_yearly.txt in Resources */,
 				29A2C9722B17D6F0000F6E1C /* Djibouti_0.txt in Resources */,
+				29C0A07A2B1FB2470096744B /* Morelos_1_yearly.txt in Resources */,
 				29A2CA632B17D889000F6E1C /* y_Comoros_0.txt in Resources */,
+				29C0A0252B1FAEF30096744B /* Jalisco_1.txt in Resources */,
 				29A2C99A2B17D6F0000F6E1C /* Kenya_0.txt in Resources */,
 				29A2CA5E2B17D889000F6E1C /* y_South Africa_0.txt in Resources */,
 				29A2CA772B17D889000F6E1C /* y_Egypt_0.txt in Resources */,
@@ -710,18 +1021,33 @@
 				29A2C9962B17D6F0000F6E1C /* Namibia_0.txt in Resources */,
 				29A2C96E2B17D6F0000F6E1C /* Somalia_0.txt in Resources */,
 				29A2C9712B17D6F0000F6E1C /* Eritrea_0.txt in Resources */,
+				29C0A03B2B1FB11B0096744B /* Zacatecas_1.txt in Resources */,
+				29C0A06C2B1FB2470096744B /* Tlaxcala_1_yearly.txt in Resources */,
+				29C0A0212B1FAEF30096744B /* Campeche_1.txt in Resources */,
 				29A2CA612B17D889000F6E1C /* y_Burkina Faso_0.txt in Resources */,
 				29A2C9852B17D6F0000F6E1C /* Cameroon_0.txt in Resources */,
+				29C0A0282B1FAEF30096744B /* Quintana Roo_1.txt in Resources */,
 				29A2C97F2B17D6F0000F6E1C /* Botswana_0.txt in Resources */,
+				29C0A0792B1FB2470096744B /* Guanajuato_1_yearly.txt in Resources */,
 				29A2CA5B2B17D889000F6E1C /* y_Algeria_0.txt in Resources */,
+				29C0A0642B1FB2470096744B /* Ciudad de México_1_yearly.txt in Resources */,
 				29A2CA852B17D889000F6E1C /* y_Lesotho_0.txt in Resources */,
 				29A2C9982B17D6F0000F6E1C /* Sierra Leone_0.txt in Resources */,
 				29A2CA832B17D889000F6E1C /* y_Ghana_0.txt in Resources */,
 				29A2CA7B2B17D889000F6E1C /* y_Uganda_0.txt in Resources */,
+				29C0A0362B1FAEF30096744B /* Tamaulipas_1.txt in Resources */,
+				29C0A0772B1FB2470096744B /* Veracruz de Ignacio de la Llave_1_yearly.txt in Resources */,
 				29A2CA5D2B17D889000F6E1C /* y_Cape Verde_0.txt in Resources */,
+				29C0A02C2B1FAEF30096744B /* Ciudad de México_1.txt in Resources */,
+				29C0A06F2B1FB2470096744B /* Guerrero_1_yearly.txt in Resources */,
+				29C0A0732B1FB2470096744B /* Tamaulipas_1_yearly.txt in Resources */,
 				29A2C99E2B17D6F0000F6E1C /* Chad_0.txt in Resources */,
+				29C0A06B2B1FB2470096744B /* México_1_yearly.txt in Resources */,
 				29A2C9932B17D6F0000F6E1C /* Cape Verde_0.txt in Resources */,
+				29C0A01D2B1FAEF30096744B /* Aguascalientes_1.txt in Resources */,
 				29A2C9922B17D6F0000F6E1C /* Rwanda_0.txt in Resources */,
+				29C0A0752B1FB2470096744B /* Yucatán_1_yearly.txt in Resources */,
+				29C0A0682B1FB2470096744B /* Hidalgo_1_yearly.txt in Resources */,
 				29A2CA862B17D889000F6E1C /* y_French Southern Territories_0.txt in Resources */,
 				29A2C96F2B17D6F0000F6E1C /* Malawi_0.txt in Resources */,
 				29A2C9A02B17D6F0000F6E1C /* Senegal_0.txt in Resources */,
@@ -729,18 +1055,28 @@
 				29A2C99D2B17D6F0000F6E1C /* Ghana_0.txt in Resources */,
 				29A2C9682B17D6F0000F6E1C /* Zambia_0.txt in Resources */,
 				29A2CA6C2B17D889000F6E1C /* y_Equatorial Guinea_0.txt in Resources */,
+				29C0A02A2B1FAEF30096744B /* Sinaloa_1.txt in Resources */,
 				29A2CA6A2B17D889000F6E1C /* y_Senegal_0.txt in Resources */,
+				29C0A05F2B1FB2470096744B /* Quintana Roo_1_yearly.txt in Resources */,
 				29A2C9702B17D6F0000F6E1C /* South Sudan_0.txt in Resources */,
 				29A2CA582B17D889000F6E1C /* y_Djibouti_0.txt in Resources */,
+				29C0A0262B1FAEF30096744B /* Puebla_1.txt in Resources */,
 				29A2C9892B17D6F0000F6E1C /* Guinea-Bissau_0.txt in Resources */,
 				29A2CA892B17D889000F6E1C /* y_Sao Tome and Principe_0.txt in Resources */,
+				29C0A07B2B1FB2470096744B /* Durango_1_yearly.txt in Resources */,
 				29A2CA562B17D889000F6E1C /* y_Rwanda_0.txt in Resources */,
 				29A2C9882B17D6F0000F6E1C /* Equatorial Guinea_0.txt in Resources */,
 				29A2C9672B17D6F0000F6E1C /* Guinea_0.txt in Resources */,
 				29A2CA702B17D889000F6E1C /* y_Niger_0.txt in Resources */,
+				29C0A05D2B1FB2470096744B /* Chihuahua_1_yearly.txt in Resources */,
 				29A2C99C2B17D6F0000F6E1C /* Nigeria_0.txt in Resources */,
+				29C0A01C2B1FAEF30096744B /* Baja California Sur_1.txt in Resources */,
+				29C0A0332B1FAEF30096744B /* Guanajuato_1.txt in Resources */,
 				29A2C97E2B17D6F0000F6E1C /* Mali_0.txt in Resources */,
+				29C0A0672B1FB2470096744B /* San Luis Potosí_1_yearly.txt in Resources */,
 				29A2C9942B17D6F0000F6E1C /* Madagascar_0.txt in Resources */,
+				29C0A0662B1FB2470096744B /* Michoacán de Ocampo_1_yearly.txt in Resources */,
+				29C0A0222B1FAEF30096744B /* Tlaxcala_1.txt in Resources */,
 				29A2CA762B17D889000F6E1C /* y_Cote d'Ivoire_0.txt in Resources */,
 				29A2C97C2B17D6F0000F6E1C /* Cote d'Ivoire_0.txt in Resources */,
 				29A2C98E2B17D6F0000F6E1C /* Comoros_0.txt in Resources */,
@@ -749,19 +1085,28 @@
 				29A2CA672B17D889000F6E1C /* y_Republic of Congo_0.txt in Resources */,
 				29A2C98F2B17D6F0000F6E1C /* Morocco_0.txt in Resources */,
 				29A2C9872B17D6F0000F6E1C /* Mauritius_0.txt in Resources */,
+				29C0A0782B1FB2470096744B /* Jalisco_1_yearly.txt in Resources */,
 				29A2C97D2B17D6F0000F6E1C /* Swaziland_0.txt in Resources */,
 				29A2CA552B17D889000F6E1C /* y_Democratic Republic of the Congo_0.txt in Resources */,
+				29C0A0232B1FAEF30096744B /* Durango_1.txt in Resources */,
+				29C0A0302B1FAEF30096744B /* Nuevo León_1.txt in Resources */,
 				291882CF2B0F5195006762F4 /* Assets.xcassets in Resources */,
 				29A2CA6D2B17D889000F6E1C /* y_Guinea-Bissau_0.txt in Resources */,
 				29A2C9832B17D6F0000F6E1C /* Ethiopia_0.txt in Resources */,
 				29A2CA752B17D889000F6E1C /* y_South Sudan_0.txt in Resources */,
+				29C0A0392B1FB0DC0096744B /* Yucatán_1.txt in Resources */,
 				29A2CA662B17D889000F6E1C /* y_Togo_0.txt in Resources */,
+				29C0A02E2B1FAEF30096744B /* Michoacán de Ocampo_1.txt in Resources */,
+				29C0A0322B1FAEF30096744B /* Colima_1.txt in Resources */,
 				29A2C97A2B17D6F0000F6E1C /* Seychelles_0.txt in Resources */,
+				29C0A01A2B1FAEF30096744B /* San Luis Potosí_1.txt in Resources */,
 				29A2CA842B17D889000F6E1C /* y_Ethiopia_0.txt in Resources */,
 				29A2CA602B17D889000F6E1C /* y_Mauritania_0.txt in Resources */,
 				29A2CA7F2B17D889000F6E1C /* y_Angola_0.txt in Resources */,
 				29A2C98C2B17D6F0000F6E1C /* Burkina Faso_0.txt in Resources */,
+				29C0A01F2B1FAEF30096744B /* Guerrero_1.txt in Resources */,
 				29A2CA682B17D889000F6E1C /* y_Namibia_0.txt in Resources */,
+				29C0A02F2B1FAEF30096744B /* Coahuila de Zaragoza_1.txt in Resources */,
 				29A2CA8A2B17D889000F6E1C /* y_Mauritius_0.txt in Resources */,
 				29A2CA712B17D889000F6E1C /* y_Nigeria_0.txt in Resources */,
 				29A2CA742B17D889000F6E1C /* y_Eritrea_0.txt in Resources */,
@@ -779,17 +1124,24 @@
 			files = (
 				291882DE2B0F520C006762F4 /* ModelCountry.swift in Sources */,
 				2918834A2B0F58E4006762F4 /* InformationView.swift in Sources */,
+				29C09FEC2B1F96FF0096744B /* VMMexicoMap.swift in Sources */,
 				29BC6E862B15E613000CDDFA /* MonthlyGraph.swift in Sources */,
+				29C09FF22B1F99CA0096744B /* MexicoStateInfo.swift in Sources */,
 				2918834C2B0F5E4E006762F4 /* GraphView.swift in Sources */,
 				291883482B0F5747006762F4 /* VMInformation.swift in Sources */,
+				29C09FE92B1F950D0096744B /* ModelMexico.swift in Sources */,
 				29BB30EC2B137016006D2DCA /* Color.swift in Sources */,
 				291882E82B0F539D006762F4 /* MainMapView.swift in Sources */,
 				291882E52B0F5331006762F4 /* QuickInfoView.swift in Sources */,
+				29C0A07D2B1FB4210096744B /* MexicoStateGraph.swift in Sources */,
 				291882CB2B0F5193006762F4 /* DROP0App.swift in Sources */,
+				29C09FF42B1F9B9F0096744B /* MexicoStatesList.swift in Sources */,
+				29C09FF92B1FA7FE0096744B /* MainView.swift in Sources */,
 				294CA1A72B1112FD00C9BAFD /* WaterLevelLegend.swift in Sources */,
 				29DA346E2B10DB4200EC0179 /* colortest.swift in Sources */,
 				291882E12B0F5270006762F4 /* VMMap.swift in Sources */,
 				291882E32B0F52B7006762F4 /* TabBar.swift in Sources */,
+				29C09FEF2B1F98490096744B /* MexicoMapView.swift in Sources */,
 				291883502B0FAE56006762F4 /* CountriesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

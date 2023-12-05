@@ -94,7 +94,7 @@ struct TabBar: View
 					showCountriesList.toggle()
 //				}
 			} label: {
-				Label("All Countries", systemImage: "line.3.horizontal")
+				Label("List", systemImage: "line.3.horizontal")
 					.padding()
 				
 			}
